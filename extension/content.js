@@ -29,6 +29,11 @@ chrome.storage.onChanged.addListener((changes, namespace) => {
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     console.log("CogniLens: Received message", request);
     if (request.action === "explain_selection") {
+        // Apply temporary settings from popup if provided
+        if (request.settings) {
+            Object.assign(settings, request.settings);
+        }
+
         const selection = window.getSelection().toString().trim();
         console.log("CogniLens: Selection found:", selection);
         if (!selection) {
@@ -74,15 +79,28 @@ function createOverlay(text) {
     overlay.id = 'cognilens-overlay';
     overlay.style.top = top + 'px';
     overlay.style.left = left + 'px';
+    const syllabusLabels = {
+        'IB': 'IB Framework',
+        'AP': 'Advanced Placement',
+        'IGCSE': 'IGCSE Standard'
+    };
+
+    const modeLabels = {
+        'concept': 'Concept Analysis',
+        'guided': 'Guided Problem Solving',
+        'concise': 'Abridged Summary',
+        'detailed': 'In-depth Exploration'
+    };
+
     overlay.innerHTML = `
     <div id="cognilens-header">
-      <span id="cognilens-title">CogniLens / ${settings.syllabus}</span>
+      <span id="cognilens-title">CogniLens / ${syllabusLabels[settings.syllabus] || settings.syllabus}</span>
       <span id="cognilens-close">×</span>
     </div>
     <div id="cognilens-content">
       <div class="cognilens-loading">
         Analyzing context...
-        <small>Mode: ${settings.mode} / ${settings.language}</small>
+        <small>${modeLabels[settings.mode] || settings.mode} &middot; ${settings.language}</small>
       </div>
     </div>
   `;
