@@ -1,0 +1,9 @@
+{
+    "syllabus": "AP",
+    "prompt_rules": [
+        "Use College Board terminology strictly.",
+        "Focus on the specific learning objectives defined in the AP Course and Exam Description.",
+        "Reference specific AP Units and Topics where applicable.",
+        "For 'guided solving', focus on the process points awarded in AP Free Response Questions (FRQs)."
+    ]
+}

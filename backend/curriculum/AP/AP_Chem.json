@@ -1,0 +1,1528 @@
+[
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Atomic Structure and Properties",
+        "subtopic": "1.1 Moles and Molar Mass",
+        "learning_objectives": [
+            "Calculate quantities of a substance or its relative number of particles using dimensional analysis and the mole concept."
+        ],
+        "allowed_methods": [
+            "Use equation n = m / M",
+            "Apply Avogadro's number",
+            "Use molar mass conversions"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Atomic Structure and Properties",
+        "subtopic": "1.2 Mass Spectra of Elements",
+        "learning_objectives": [
+            "Explain the quantitative relationship between the mass spectrum of an element and the masses of the element's isotopes."
+        ],
+        "allowed_methods": [
+            "Interpret mass spectra of single elements",
+            "Calculate average atomic mass from isotopic masses and abundances"
+        ],
+        "explicit_exclusions": [
+            "Interpreting mass spectra of samples with multiple elements",
+            "Peaks from species other than singly charged monatomic ions"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Atomic Structure and Properties",
+        "subtopic": "1.3 Elemental Composition of Pure Substances",
+        "learning_objectives": [
+            "Explain the quantitative relationship between the elemental composition by mass and the empirical formula of a pure substance."
+        ],
+        "allowed_methods": [
+            "Apply law of definite proportions",
+            "Determine empirical formulas"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Atomic Structure and Properties",
+        "subtopic": "1.4 Composition of Mixtures",
+        "learning_objectives": [
+            "Explain the quantitative relationship between the elemental composition by mass and the composition of substances in a mixture."
+        ],
+        "allowed_methods": [
+            "Use elemental analysis to determine relative atom numbers and purity"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Atomic Structure and Properties",
+        "subtopic": "1.5 Atomic Structure and Electron Configuration",
+        "learning_objectives": [
+            "Represent the ground-state electron configuration of an atom or its ions using the Aufbau principle."
+        ],
+        "allowed_methods": [
+            "Apply Coulomb's law qualitatively",
+            "Use shell model and subshells",
+            "Represent electron configurations"
+        ],
+        "explicit_exclusions": [
+            "Assignment of quantum numbers to electrons"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Atomic Structure and Properties",
+        "subtopic": "1.6 Photoelectron Spectroscopy",
+        "learning_objectives": [
+            "Explain the relationship between the photoelectron spectrum of an atom or ion and its ground-state electron configuration and electron-nucleus interactions."
+        ],
+        "allowed_methods": [
+            "Interpret PES spectra to determine electron energies and subshell populations"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Atomic Structure and Properties",
+        "subtopic": "1.7 Periodic Trends",
+        "learning_objectives": [
+            "Explain the relationship between trends in atomic properties of elements and electronic structure and periodicity."
+        ],
+        "allowed_methods": [
+            "Predict trends using periodic table position",
+            "Apply Coulomb's law, shell model, shielding, effective nuclear charge qualitatively"
+        ],
+        "explicit_exclusions": [
+            "Writing electron configurations for aufbau principle exceptions"
+        ],
+        "exam_style_notes": [
+            "Justify claims with evidence on the AP Exam",
+            "Explain periodic trends using electrostatic interactions",
+            "Connect trends to shell model, Coulomb's law, quantum theory"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Atomic Structure and Properties",
+        "subtopic": "1.8 Valence Electrons and Ionic Compounds",
+        "learning_objectives": [
+            "Explain the relationship between trends in the reactivity of elements and periodicity."
+        ],
+        "allowed_methods": [
+            "Predict compound formation based on valence electrons and periodic table position"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Justify claims with evidence on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Compound Structure and Properties",
+        "subtopic": "2.1 Types of Chemical Bonds",
+        "learning_objectives": [
+            "Explain the relationship between the type of bonding and the properties of the elements participating in the bond."
+        ],
+        "allowed_methods": [
+            "Use electronegativity trends",
+            "Distinguish between nonpolar covalent, polar covalent, ionic, and metallic bonding"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Compound Structure and Properties",
+        "subtopic": "2.2 Intramolecular Force and Potential Energy",
+        "learning_objectives": [
+            "Represent the relationship between potential energy and distance between atoms, based on factors that influence interaction strength."
+        ],
+        "allowed_methods": [
+            "Interpret potential energy vs. internuclear distance graphs",
+            "Apply Coulomb's law to ionic interactions"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Compound Structure and Properties",
+        "subtopic": "2.3 Structure of Ionic Solids",
+        "learning_objectives": [
+            "Represent an ionic solid with a particulate model consistent with Coulomb's law and ion properties."
+        ],
+        "allowed_methods": [
+            "Use particulate models to represent ionic crystal structures"
+        ],
+        "explicit_exclusions": [
+            "Knowledge of specific crystal structures"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Compound Structure and Properties",
+        "subtopic": "2.4 Structure of Metals and Alloys",
+        "learning_objectives": [
+            "Represent a metallic solid and/or alloy using a model to show essential characteristics of structure and interactions."
+        ],
+        "allowed_methods": [
+            "Model metallic bonding as positive ions in a sea of electrons",
+            "Distinguish interstitial and substitutional alloys"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Compound Structure and Properties",
+        "subtopic": "2.5 Lewis Diagrams",
+        "learning_objectives": [
+            "Represent a molecule with a Lewis diagram."
+        ],
+        "allowed_methods": [
+            "Construct Lewis diagrams using established principles"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Compound Structure and Properties",
+        "subtopic": "2.6 Resonance and Formal Charge",
+        "learning_objectives": [
+            "Represent a molecule with a Lewis diagram that accounts for resonance or uses formal charge to select between nonequivalent structures."
+        ],
+        "allowed_methods": [
+            "Include resonance in Lewis structures",
+            "Use octet rule and formal charge to evaluate diagrams"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Compound Structure and Properties",
+        "subtopic": "2.7 VSEPR and Hybridization",
+        "learning_objectives": [
+            "Based on Lewis diagrams, VSEPR theory, bond orders, and polarities, explain structural and electron properties of molecules."
+        ],
+        "allowed_methods": [
+            "Apply VSEPR theory to predict molecular geometry and bond angles",
+            "Use sp, sp2, sp3 hybridization nomenclature",
+            "Distinguish sigma and pi bonds"
+        ],
+        "explicit_exclusions": [
+            "Derivation and depiction of hybrid orbitals",
+            "Hybridization involving d orbitals",
+            "Molecular orbital diagrams, filling, bonding/nonbonding/antibonding orbitals"
+        ],
+        "exam_style_notes": [
+            "Construct Lewis structures and make predictions based on them"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.1 Intermolecular and Interparticle Forces",
+        "learning_objectives": [
+            "Explain the relationship between the chemical structures of molecules and the relative strength of their intermolecular forces for same or different species."
+        ],
+        "allowed_methods": [
+            "Identify London dispersion, dipole-induced dipole, dipole-dipole, ion-dipole, hydrogen bonding forces",
+            "Qualitatively assess interaction strengths"
+        ],
+        "explicit_exclusions": [
+            "Using 'van der Waals forces' synonymously with 'London dispersion forces'"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.2 Properties of Solids",
+        "learning_objectives": [
+            "Explain the relationship among macroscopic properties, particulate-level structure, and particle interactions."
+        ],
+        "allowed_methods": [
+            "Relate properties like vapor pressure, melting point to intermolecular forces",
+            "Use particulate representations for ionic, covalent network, molecular, metallic solids"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Compare physical properties and relate to attractive forces on the exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.3 Solids, Liquids, and Gases",
+        "learning_objectives": [
+            "Represent differences between solid, liquid, and gas phases using a particulate-level model."
+        ],
+        "allowed_methods": [
+            "Model crystalline/amorphous solids, liquids, gases with particle arrangements and motion"
+        ],
+        "explicit_exclusions": [
+            "Understanding/interpreting phase diagrams"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.4 Ideal Gas Law",
+        "learning_objectives": [
+            "Explain the relationship between macroscopic properties of a gas sample or mixture using the ideal gas law."
+        ],
+        "allowed_methods": [
+            "Apply PV = nRT",
+            "Use partial pressures and mole fractions",
+            "Interpret graphical representations of P, V, T, n relationships"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.5 Kinetic Molecular Theory",
+        "learning_objectives": [
+            "Explain the relationship between particle motion and macroscopic gas properties using KMT, particulate models, and graphical representations."
+        ],
+        "allowed_methods": [
+            "Apply Maxwell-Boltzmann distribution",
+            "Relate kinetic energy to temperature and velocity"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.6 Deviation from Ideal Gas Law",
+        "learning_objectives": [
+            "Explain the relationship among non-ideal gas behaviors, interparticle forces, and volumes."
+        ],
+        "allowed_methods": [
+            "Qualitatively explain deviations due to attractions or particle volumes"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.7 Solutions and Mixtures",
+        "learning_objectives": [
+            "Calculate the number of solute particles, volume, or molarity of solutions."
+        ],
+        "allowed_methods": [
+            "Use molarity M = n_solute / L_solution",
+            "Distinguish homogeneous and heterogeneous mixtures"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.8 Representations of Solutions",
+        "learning_objectives": [
+            "Using particulate models for mixtures: represent interactions between components and concentrations."
+        ],
+        "allowed_methods": [
+            "Create particulate representations of solutions"
+        ],
+        "explicit_exclusions": [
+            "Colligative properties",
+            "Calculations of molality, percent by mass, percent by volume"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.9 Separation of Solutions and Mixtures",
+        "learning_objectives": [
+            "Explain the results of a separation experiment based on intermolecular interactions."
+        ],
+        "allowed_methods": [
+            "Use chromatography and distillation separation techniques",
+            "Infer relative polarities from chromatograms"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.10 Solubility",
+        "learning_objectives": [
+            "Explain the relationship between solubility of ionic and molecular compounds in solvents and intermolecular interactions."
+        ],
+        "allowed_methods": [
+            "Apply 'like dissolves like' principle based on intermolecular forces"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.11 Spectroscopy and the Electromagnetic Spectrum",
+        "learning_objectives": [
+            "Explain the relationship between a region of the electromagnetic spectrum and types of molecular or electronic transitions."
+        ],
+        "allowed_methods": [
+            "Associate microwave with rotational, infrared with vibrational, UV/visible with electronic transitions"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.12 Properties of Photons",
+        "learning_objectives": [
+            "Explain the properties of an absorbed or emitted photon in relationship to an electronic transition in an atom or molecule."
+        ],
+        "allowed_methods": [
+            "Use equations c = λν and E = hν",
+            "Relate photon energy to electronic transitions"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Properties of Substances and Mixtures",
+        "subtopic": "3.13 Beer-Lambert Law",
+        "learning_objectives": [
+            "Explain the amount of light absorbed by a solution in relationship to concentration, path length, and molar absorptivity."
+        ],
+        "allowed_methods": [
+            "Apply Beer-Lambert law A = εbc",
+            "Use spectrophotometry at optimum wavelength"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Chemical Reactions",
+        "subtopic": "4.1 Introduction for Reactions",
+        "learning_objectives": [
+            "Identify evidence of chemical and physical changes in matter."
+        ],
+        "allowed_methods": [
+            "Distinguish physical changes (phase changes, mixture formation) and chemical changes (heat/light production, gas formation, precipitate, color change)"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Chemical Reactions",
+        "subtopic": "4.2 Net Ionic Equations",
+        "learning_objectives": [
+            "Represent changes in matter with a balanced chemical or net ionic equation for physical changes, given reactants/products, or ions."
+        ],
+        "allowed_methods": [
+            "Write balanced molecular, complete ionic, net ionic equations",
+            "Demonstrate conservation of mass and charge"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Demonstrate proficiency in writing and balancing chemical equations on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Chemical Reactions",
+        "subtopic": "4.3 Representations of Reactions",
+        "learning_objectives": [
+            "Represent a given chemical reaction or physical process with a consistent particulate model."
+        ],
+        "allowed_methods": [
+            "Translate balanced equations into particulate representations"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Chemical Reactions",
+        "subtopic": "4.4 Physical and Chemical Changes",
+        "learning_objectives": [
+            "Explain the relationship between macroscopic characteristics and bond interactions for chemical and physical processes."
+        ],
+        "allowed_methods": [
+            "Classify processes based on bond breaking/forming vs. intermolecular changes"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Chemical Reactions",
+        "subtopic": "4.5 Stoichiometry",
+        "learning_objectives": [
+            "Explain changes in the amounts of reactants and products based on the balanced reaction equation."
+        ],
+        "allowed_methods": [
+            "Use stoichiometric coefficients and mole concept for calculations",
+            "Combine with ideal gas law and molarity"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Calculate quantities using stoichiometric ratios on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Chemical Reactions",
+        "subtopic": "4.6 Introduction to Titration",
+        "learning_objectives": [
+            "Identify the equivalence point in a titration based on amounts of titrant and analyte, assuming completion."
+        ],
+        "allowed_methods": [
+            "Use titration to determine analyte amount",
+            "Identify equivalence point and endpoint"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Chemical Reactions",
+        "subtopic": "4.7 Types of Chemical Reactions",
+        "learning_objectives": [
+            "Identify a reaction as acid-base, oxidation-reduction, or precipitation."
+        ],
+        "allowed_methods": [
+            "Recognize proton transfer for acid-base, electron transfer for redox, insolubility for precipitation",
+            "Use oxidation numbers"
+        ],
+        "explicit_exclusions": [
+            "Meaning of 'reducing agent' and 'oxidizing agent'",
+            "Rote memorization of solubility rules beyond sodium, potassium, ammonium, nitrate salts"
+        ],
+        "exam_style_notes": [
+            "Justify identification of reaction type using equations on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Chemical Reactions",
+        "subtopic": "4.8 Introduction to Acid-Base Reactions",
+        "learning_objectives": [
+            "Identify species as Brønsted-Lowry acids, bases, and/or conjugate acid-base pairs based on proton transfer."
+        ],
+        "allowed_methods": [
+            "Apply Brønsted-Lowry definitions in aqueous solutions"
+        ],
+        "explicit_exclusions": [
+            "Lewis acid-base concepts"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Chemical Reactions",
+        "subtopic": "4.9 Oxidation-Reduction (Redox) Reactions",
+        "learning_objectives": [
+            "Represent a balanced redox reaction equation using half-reactions."
+        ],
+        "allowed_methods": [
+            "Construct redox equations from half-reactions"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.1 Reaction Rates",
+        "learning_objectives": [
+            "Explain the relationship between the rate of a chemical reaction and experimental parameters."
+        ],
+        "allowed_methods": [
+            "Define kinetics as rate of conversion",
+            "Relate rates to stoichiometry",
+            "Identify factors influencing rate"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.2 Introduction to Rate Law",
+        "learning_objectives": [
+            "Represent experimental data with a consistent rate law expression."
+        ],
+        "allowed_methods": [
+            "Express rate law as proportional to reactant concentrations raised to powers",
+            "Determine order and rate constant",
+            "Use initial rates method"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.3 Concentration Changes Over Time",
+        "learning_objectives": [
+            "Identify the rate law expression of a chemical reaction using data on concentration changes over time."
+        ],
+        "allowed_methods": [
+            "Infer order from concentration vs. time graphs",
+            "Use integrated rate laws for zeroth, first, second order",
+            "Apply half-life for first order reactions"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Navigate between experimental data, rate law, and proposed mechanism on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.4 Elementary Reactions",
+        "learning_objectives": [
+            "Represent an elementary reaction as a rate law expression using stoichiometry."
+        ],
+        "allowed_methods": [
+            "Infer rate law from elementary reaction stoichiometry"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.5 Collision Model",
+        "learning_objectives": [
+            "Explain the relationship between the rate of an elementary reaction and the frequency, energy, and orientation of particle collisions."
+        ],
+        "allowed_methods": [
+            "Apply collision model with activation energy and orientation",
+            "Use Maxwell-Boltzmann distribution qualitatively"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.6 Reaction Energy Profile",
+        "learning_objectives": [
+            "Represent the activation energy and overall energy change in an elementary reaction using a reaction energy profile."
+        ],
+        "allowed_methods": [
+            "Interpret reaction coordinate diagrams",
+            "Identify transition state and activation energy"
+        ],
+        "explicit_exclusions": [
+            "Calculations involving Arrhenius equation"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.7 Introduction to Reaction Mechanisms",
+        "learning_objectives": [
+            "Identify the components of a reaction mechanism."
+        ],
+        "allowed_methods": [
+            "Recognize elementary steps, intermediates, catalysts",
+            "Align steps with overall balanced equation"
+        ],
+        "explicit_exclusions": [
+            "Collection of data pertaining to detection of a reaction intermediate"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.8 Reaction Mechanism and Rate Law",
+        "learning_objectives": [
+            "Identify the rate law for a reaction from a mechanism in which the first step is rate limiting."
+        ],
+        "allowed_methods": [
+            "Determine rate law from rate-limiting step in irreversible or first-step-limited mechanisms"
+        ],
+        "explicit_exclusions": [
+            "Collection of data pertaining to detection of a reaction intermediate"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.9 Pre-Equilibrium Approximation",
+        "learning_objectives": [
+            "Identify the rate law for a reaction from a mechanism in which the first step is not rate limiting."
+        ],
+        "allowed_methods": [
+            "Use approximations like pre-equilibrium to determine rate law"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.10 Multistep Reaction Energy Profile",
+        "learning_objectives": [
+            "Represent the activation energy and overall energy change in a multistep reaction with a reaction energy profile."
+        ],
+        "allowed_methods": [
+            "Construct energy profiles for multistep reactions from elementary step energetics"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Kinetics",
+        "subtopic": "5.11 Catalysis",
+        "learning_objectives": [
+            "Explain the relationship between the effect of a catalyst on a reaction and changes in the reaction mechanism."
+        ],
+        "allowed_methods": [
+            "Describe catalyst role in increasing effective collisions or lowering activation energy",
+            "Identify catalyst consumption and regeneration in mechanisms"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermochemistry",
+        "subtopic": "6.1 Endothermic and Exothermic Processes",
+        "learning_objectives": [
+            "Explain the relationship between experimental observations and energy changes associated with a chemical or physical transformation."
+        ],
+        "allowed_methods": [
+            "Identify endothermic and exothermic processes from temperature changes",
+            "Relate energy changes to heat transfer or work"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermochemistry",
+        "subtopic": "6.2 Energy Diagrams",
+        "learning_objectives": [
+            "Represent a chemical or physical transformation with an energy diagram."
+        ],
+        "allowed_methods": [
+            "Draw energy diagrams showing endothermic or exothermic nature"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermochemistry",
+        "subtopic": "6.3 Heat Transfer and Thermal Equilibrium",
+        "learning_objectives": [
+            "Explain the relationship between the transfer of thermal energy and molecular collisions."
+        ],
+        "allowed_methods": [
+            "Describe heat transfer via collisions leading to thermal equilibrium"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermochemistry",
+        "subtopic": "6.4 Heat Capacity and Calorimetry",
+        "learning_objectives": [
+            "Calculate the heat q absorbed or released by a system undergoing heating/cooling based on amount, heat capacity, and temperature change."
+        ],
+        "allowed_methods": [
+            "Use equation q = mcΔT",
+            "Apply first law of thermodynamics",
+            "Use specific heat and molar heat capacity"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Analyze calorimetry data and apply mathematical routines on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermochemistry",
+        "subtopic": "6.5 Energy of Phase Changes",
+        "learning_objectives": [
+            "Explain changes in heat q absorbed or released by a system undergoing a phase transition based on amount and molar enthalpy."
+        ],
+        "allowed_methods": [
+            "Relate energy to phase changes using molar enthalpies of fusion, vaporization, etc."
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermochemistry",
+        "subtopic": "6.6 Introduction to Enthalpy of Reaction",
+        "learning_objectives": [
+            "Calculate the heat q absorbed or released by a system undergoing a chemical reaction in relationship to amount and molar enthalpy of reaction."
+        ],
+        "allowed_methods": [
+            "Use enthalpy change ΔH for reactions at constant pressure",
+            "Relate to temperature changes and bond breaking/forming"
+        ],
+        "explicit_exclusions": [
+            "Technical distinctions between enthalpy and internal energy"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermochemistry",
+        "subtopic": "6.7 Bond Enthalpies",
+        "learning_objectives": [
+            "Calculate the enthalpy change of a reaction based on the average bond energies of bonds broken and formed."
+        ],
+        "allowed_methods": [
+            "Estimate enthalpy change from bond energies",
+            "Determine exothermic or endothermic based on energy balance"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Translate between balanced reaction and bond energy calculations on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermochemistry",
+        "subtopic": "6.8 Enthalpy of Formation",
+        "learning_objectives": [
+            "Calculate the enthalpy change for a chemical or physical process based on standard enthalpies of formation."
+        ],
+        "allowed_methods": [
+            "Use ΔH°_reaction = ΣΔH°_f(products) - ΣΔH°_f(reactants)"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermochemistry",
+        "subtopic": "6.9 Hess's Law",
+        "learning_objectives": [
+            "Represent a chemical or physical process as a sequence of steps.",
+            "Explain the relationship between the enthalpy of a process and the sum of enthalpies of individual steps."
+        ],
+        "allowed_methods": [
+            "Apply Hess's law: reverse reactions change sign, multiply by factor, add reactions"
+        ],
+        "explicit_exclusions": [
+            "Concept of state functions"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.1 Introduction to Equilibrium",
+        "learning_objectives": [
+            "Explain the relationship between the occurrence of a reversible chemical or physical process, and the establishment of equilibrium, to experimental observations."
+        ],
+        "allowed_methods": [
+            "Identify reversible processes",
+            "Interpret concentration, pressure, or rate vs. time graphs"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.2 Direction of Reversible Reactions",
+        "learning_objectives": [
+            "Explain the relationship between the direction in which a reversible reaction proceeds and the relative rates of forward and reverse reactions."
+        ],
+        "allowed_methods": [
+            "Relate net conversion to rate comparisons",
+            "Understand dynamic equilibrium"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.3 Reaction Quotient and Equilibrium Constant",
+        "learning_objectives": [
+            "Represent the reaction quotient Q_c or Q_p for a reversible reaction, and the corresponding equilibrium expressions K_c = Q_c or K_p = Q_p."
+        ],
+        "allowed_methods": [
+            "Write equilibrium expressions using law of mass action",
+            "Exclude solids and pure liquids"
+        ],
+        "explicit_exclusions": [
+            "Conversion between K_c and K_p",
+            "Equilibrium calculations with dissolved species in equilibrium with gas phase"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.4 Calculating the Equilibrium Constant",
+        "learning_objectives": [
+            "Calculate K_c or K_p based on experimental observations of concentrations or pressures at equilibrium."
+        ],
+        "allowed_methods": [
+            "Determine K from equilibrium concentrations or pressures"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.5 Magnitude of the Equilibrium Constant",
+        "learning_objectives": [
+            "Explain the relationship between very large or very small values of K and the relative concentrations of chemical species at equilibrium."
+        ],
+        "allowed_methods": [
+            "Interpret large K as favoring products, small K as favoring reactants"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Connect equilibrium constant value to dominant reaction direction on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.6 Properties of the Equilibrium Constant",
+        "learning_objectives": [
+            "Represent a multistep process with an overall equilibrium expression, using constituent K expressions for each individual reaction."
+        ],
+        "allowed_methods": [
+            "Manipulate K for reversed, multiplied, or added reactions"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.7 Calculating Equilibrium Concentrations",
+        "learning_objectives": [
+            "Identify the concentrations or partial pressures of chemical species at equilibrium based on initial conditions and the equilibrium constant."
+        ],
+        "allowed_methods": [
+            "Predict equilibrium concentrations from K and initial conditions",
+            "Use Q to determine reaction direction"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.8 Representations of Equilibrium",
+        "learning_objectives": [
+            "Represent a system undergoing a reversible reaction with a particulate model."
+        ],
+        "allowed_methods": [
+            "Use particulate models to show relative numbers of reactants and products at equilibrium"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.9 Introduction to Le Chatelier's Principle",
+        "learning_objectives": [
+            "Identify the response of a system at equilibrium to an external stress using Le Chatelier's principle."
+        ],
+        "allowed_methods": [
+            "Predict effects of concentration, temperature, volume/pressure changes, dilution"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.10 Reaction Quotient and Le Chatelier's Principle",
+        "learning_objectives": [
+            "Explain the relationships between Q, K, and the direction in which a reversible reaction will proceed to reach equilibrium."
+        ],
+        "allowed_methods": [
+            "Relate disturbances to changes in Q or K",
+            "Describe system response to re-establish Q=K"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.11 Introduction to Solubility Equilibria",
+        "learning_objectives": [
+            "Calculate the solubility of a salt based on the value of K_sp for the salt."
+        ],
+        "allowed_methods": [
+            "Use K_sp to calculate solubility",
+            "Relate solubility rules to K_sp values"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Equilibrium",
+        "subtopic": "7.12 Common-Ion Effect",
+        "learning_objectives": [
+            "Identify the solubility of a salt, and/or the value of K_sp for the salt, based on the concentration of a common ion already present in solution."
+        ],
+        "allowed_methods": [
+            "Apply common-ion effect qualitatively using Le Chatelier's principle or calculations from K_sp"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.1 Introduction to Acids and Bases",
+        "learning_objectives": [
+            "Calculate the values of pH and pOH, based on K_w and the concentration of all species present in a neutral solution of water."
+        ],
+        "allowed_methods": [
+            "Use pH = -log[H3O+], pOH = -log[OH-]",
+            "Apply K_w = [H3O+][OH-] = 1.0e-14 at 25°C",
+            "Relate pH, pOH, pK_w"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.2 pH and pOH of Strong Acids and Bases",
+        "learning_objectives": [
+            "Calculate pH and pOH based on concentrations of all species in a solution of a strong acid or a strong base."
+        ],
+        "allowed_methods": [
+            "Assume complete ionization for strong acids (e.g., HCl, HNO3) and dissociation for strong bases (group I/II hydroxides)"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.3 Weak Acid and Base Equilibria",
+        "learning_objectives": [
+            "Explain the relationship among pH, pOH, and concentrations of all species in a solution of a monoprotic weak acid or weak base."
+        ],
+        "allowed_methods": [
+            "Use K_a and K_b expressions",
+            "Calculate percent ionization",
+            "Apply relationship K_a × K_b = K_w"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Use titration curves to identify equivalence and half-equivalence points on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.4 Acid-Base Reactions and Buffers",
+        "learning_objectives": [
+            "Explain the relationship among the concentrations of major species in a mixture of weak and strong acids and bases."
+        ],
+        "allowed_methods": [
+            "Calculate pH for strong acid-strong base mixtures",
+            "Identify buffer formation and use Henderson-Hasselbalch equation",
+            "Handle weak acid-strong base, weak base-strong acid, weak acid-weak base mixtures"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.5 Acid-Base Titrations",
+        "learning_objectives": [
+            "Explain results from the titration of a mono- or polyprotic acid or base solution, in relation to the properties of the solution and its components."
+        ],
+        "allowed_methods": [
+            "Interpret titration curves",
+            "Determine equivalence point and half-equivalence point",
+            "Use pK_a from half-equivalence point",
+            "Identify major species at different points"
+        ],
+        "explicit_exclusions": [
+            "Computation of species concentrations for polyprotic acid titrations"
+        ],
+        "exam_style_notes": [
+            "Complete calculations or estimations of concentration or pH from titration curves on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.6 Molecular Structure of Acids and Bases",
+        "learning_objectives": [
+            "Explain the relationship between the strength of an acid or base and the structure of the molecule or ion."
+        ],
+        "allowed_methods": [
+            "Infer acid/base strength from molecular structure",
+            "Consider electronegativity, inductive effects, resonance"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.7 pH and pK_a",
+        "learning_objectives": [
+            "Explain the relationship between the predominant form of a weak acid or base in solution at a given pH and the pK_a of the conjugate acid or pK_b of the conjugate base."
+        ],
+        "allowed_methods": [
+            "Predict protonation state by comparing pH to pK_a",
+            "Select acid-base indicators based on pK_a near equivalence point"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.8 Properties of Buffers",
+        "learning_objectives": [
+            "Explain the relationship between the ability of a buffer to stabilize pH and the reactions that occur when an acid or a base is added to a buffered solution."
+        ],
+        "allowed_methods": [
+            "Describe buffer action via conjugate acid-base pair reactions"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.9 Henderson-Hasselbalch Equation",
+        "learning_objectives": [
+            "Identify the pH of a buffer solution based on the identity and concentrations of the conjugate acid-base pair used to create the buffer."
+        ],
+        "allowed_methods": [
+            "Apply pH = pK_a + log([A-]/[HA])"
+        ],
+        "explicit_exclusions": [
+            "Computation of pH change from adding acid/base to a buffer",
+            "Derivation of Henderson-Hasselbalch equation"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.10 Buffer Capacity",
+        "learning_objectives": [
+            "Explain the relationship between the buffer capacity of a solution and the relative concentrations of the conjugate acid and conjugate base components."
+        ],
+        "allowed_methods": [
+            "Relate buffer capacity to component concentrations and ratios"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Acids and Bases",
+        "subtopic": "8.11 pH and Solubility",
+        "learning_objectives": [
+            "Identify the qualitative effect of changes in pH on the solubility of a salt."
+        ],
+        "allowed_methods": [
+            "Use Le Châtelier's principle qualitatively for pH-sensitive solubility"
+        ],
+        "explicit_exclusions": [
+            "Computations of solubility as a function of pH"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.1 Introduction to Entropy",
+        "learning_objectives": [
+            "Identify the sign and relative magnitude of the entropy change associated with chemical or physical processes."
+        ],
+        "allowed_methods": [
+            "Assess entropy changes from matter dispersal (phase changes, volume changes) and energy dispersal (temperature increases)"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.2 Absolute Entropy and Entropy Change",
+        "learning_objectives": [
+            "Calculate the standard entropy change for a chemical or physical process based on the absolute entropies of the species involved."
+        ],
+        "allowed_methods": [
+            "Use ΔS°_reaction = ΣS°_products - ΣS°_reactants"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.3 Gibbs Free Energy and Thermodynamic Favorability",
+        "learning_objectives": [
+            "Explain whether a physical or chemical process is thermodynamically favored based on an evaluation of ΔG°."
+        ],
+        "allowed_methods": [
+            "Use ΔG° = ΔH° - TΔS°",
+            "Determine favorability from signs of ΔH° and ΔS°",
+            "Calculate ΔG° from standard Gibbs free energies of formation"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Provide explanations connecting entropy, enthalpy, and Gibbs free energy on the AP Exam"
+        ]
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.4 Thermodynamic and Kinetic Control",
+        "learning_objectives": [
+            "Explain, in terms of kinetics, why a thermodynamically favored reaction might not occur at a measurable rate."
+        ],
+        "allowed_methods": [
+            "Describe kinetic control due to high activation energy"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.5 Free Energy and Equilibrium",
+        "learning_objectives": [
+            "Explain whether a process is thermodynamically favored using the relationships between K, ΔG°, and T."
+        ],
+        "allowed_methods": [
+            "Relate ΔG° and K via ΔG° = -RT ln K",
+            "Make qualitative connections between ΔG° and equilibrium favorability"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.6 Free Energy of Dissolution",
+        "learning_objectives": [
+            "Explain the relationship between the solubility of a salt and changes in enthalpy and entropy in the dissolution process."
+        ],
+        "allowed_methods": [
+            "Qualitatively estimate enthalpic and entropic contributions to dissolution free energy"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.7 Coupled Reactions",
+        "learning_objectives": [
+            "Explain the relationship between external sources of energy or coupled reactions and their ability to drive thermodynamically unfavorable processes."
+        ],
+        "allowed_methods": [
+            "Describe examples like electrolytic cells or ATP coupling",
+            "Use shared intermediates to achieve overall ΔG° < 0"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.8 Galvanic (Voltaic) and Electrolytic Cells",
+        "learning_objectives": [
+            "Explain the relationship between the physical components of an electrochemical cell and the overall operational principles of the cell."
+        ],
+        "allowed_methods": [
+            "Identify roles of electrodes, solutions, salt bridge, measuring devices",
+            "Distinguish galvanic (favored) vs. electrolytic (unfavored) cells",
+            "Oxidation at anode, reduction at cathode"
+        ],
+        "explicit_exclusions": [
+            "Labeling electrodes as positive or negative"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.9 Cell Potential and Free Energy",
+        "learning_objectives": [
+            "Explain whether an electrochemical cell is thermodynamically favored, based on its standard cell potential and constituent half-reactions."
+        ],
+        "allowed_methods": [
+            "Calculate standard cell potential from reduction potentials",
+            "Relate ΔG° = -nFE°"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.10 Cell Potential Under Nonstandard Conditions",
+        "learning_objectives": [
+            "Explain the relationship between deviations from standard cell conditions and changes in the cell potential."
+        ],
+        "allowed_methods": [
+            "Qualitatively understand effects of concentration on cell potential using Nernst equation concepts",
+            "Describe cell potential as driving force toward equilibrium"
+        ],
+        "explicit_exclusions": [
+            "Algorithmic calculations using Nernst equation"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Thermodynamics and Electrochemistry",
+        "subtopic": "9.11 Electrolysis and Faraday's Law",
+        "learning_objectives": [
+            "Calculate the amount of charge flow based on changes in the amounts of reactants and products in an electrochemical cell."
+        ],
+        "allowed_methods": [
+            "Apply Faraday's laws to relate electrons transferred, mass deposited, current, time, charge"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "AP",
+        "subject": "Chemistry",
+        "level": "AP",
+        "topic": "Exam Information",
+        "subtopic": null,
+        "learning_objectives": [],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Use task verbs: Calculate, Describe, Determine, Estimate, Explain, Identify/Indicate/Circle, Justify, Make a claim, Predict, Represent/Draw/Write an Equation/Complete a Diagram",
+            "Science practices assessed: Practices 1,2,4,5,6 in multiple-choice; all in free-response",
+            "Exam weighting: Unit 1 7-9%, Unit 2 7-9%, Unit 3 18-22%, Unit 4 7-9%, Unit 5 7-9%, Unit 6 7-9%, Unit 7 7-9%, Unit 8 11-15%, Unit 9 7-9%"
+        ]
+    }
+]

@@ -1,0 +1,658 @@
+[
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Introduction to economics",
+        "subtopic": "What is economics?",
+        "learning_objectives": [
+            "Explain economics as a social science",
+            "Explain the problem of choice (scarcity, opportunity cost, basic economic questions)",
+            "Explain the production possibilities curve (PPC) model and its features",
+            "Explain the circular flow of income model"
+        ],
+        "allowed_methods": [
+            "PPC diagram illustrating choice, opportunity cost, unemployment, efficiency, actual growth, growth in production possibilities",
+            "PPC diagram showing increasing vs constant opportunity cost",
+            "Circular flow of income model diagram with leakages and injections"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for PPC and circular flow"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Introduction to economics",
+        "subtopic": "How do economists approach the world?",
+        "learning_objectives": [
+            "Explain the role of positive economics (logic, hypotheses, models, theories, ceteris paribus, empirical evidence, refutation)",
+            "Explain the role of normative economics (value judgments, equity vs equality)",
+            "Outline the origin of economic ideas in a historical context"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Microeconomics",
+        "subtopic": "Demand",
+        "learning_objectives": [
+            "Explain the law of demand",
+            "Draw a demand curve",
+            "Explain the relationship between individual and market demand",
+            "Explain non-price determinants of demand (income, tastes, future expectations, price of related goods, number of consumers)",
+            "Distinguish between movements along and shifts of the demand curve"
+        ],
+        "allowed_methods": [
+            "Downward-sloping demand curve diagram",
+            "Diagram showing movements along and shifts of the demand curve"
+        ],
+        "explicit_exclusions": [
+            "Assumptions underlying the law of demand (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for diagrams"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Microeconomics",
+        "subtopic": "Supply",
+        "learning_objectives": [
+            "Explain the law of supply",
+            "Draw a supply curve",
+            "Explain the relationship between individual and market supply",
+            "Explain non-price determinants of supply (costs of FOPs, prices of related goods, indirect taxes/subsidies, future expectations, technology, number of firms)",
+            "Distinguish between movements along and shifts of the supply curve"
+        ],
+        "allowed_methods": [
+            "Upward-sloping supply curve diagram",
+            "Diagram showing movements along and shifts of the supply curve"
+        ],
+        "explicit_exclusions": [
+            "Assumptions underlying the law of supply (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for diagrams"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Microeconomics",
+        "subtopic": "Competitive market equilibrium",
+        "learning_objectives": [
+            "Illustrate market equilibrium using demand and supply curves",
+            "Show how shifts in demand/supply produce a new equilibrium (excess demand/supply)",
+            "Explain the functions of the price mechanism (resource allocation: signalling, incentive; rationing)",
+            "Explain consumer surplus, producer surplus, and social/community surplus",
+            "Explain allocative efficiency at competitive market equilibrium (social surplus maximized, MB=MC)"
+        ],
+        "allowed_methods": [
+            "Market equilibrium diagram",
+            "Diagram showing changes in equilibrium/role of price mechanism",
+            "Diagram showing consumer surplus and producer surplus (social/community surplus) maximized at equilibrium"
+        ],
+        "explicit_exclusions": [
+            "Calculation of consumer/producer surplus from a diagram (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for diagrams"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Microeconomics",
+        "subtopic": "Elasticity of demand",
+        "learning_objectives": [
+            "Explain the concept of elasticity",
+            "Define and calculate price elasticity of demand (PED)",
+            "Explain the degrees/theoretical range of PED values",
+            "Explain determinants of PED (substitutes, necessity, proportion of income, time)",
+            "Explain the relationship between PED and total revenue",
+            "Explain the importance of PED for firms and government",
+            "Define and calculate income elasticity of demand (YED)",
+            "Interpret YED values (normal/inferior goods, necessities/luxuries)"
+        ],
+        "allowed_methods": [
+            "Diagram: relatively elastic/inelastic demand",
+            "Diagram: constant PED (perfectly elastic, inelastic, unitary)",
+            "Diagram: changes in revenue from price changes when demand is elastic/inelastic",
+            "Diagram: Engel curve showing income elastic, inelastic, inferior goods",
+            "Calculation: PED, change in price/quantity/total revenue from data",
+            "Calculation: YED, change in income/quantity from data"
+        ],
+        "explicit_exclusions": [
+            "Changing PED along a straight-line demand curve (HL only)",
+            "Reasons why PED for primary commodities is lower than for manufactured products (HL only)",
+            "Importance of YED for firms and sectoral structure (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO1, AO2, AO4. AO3 for importance of PED."
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Microeconomics",
+        "subtopic": "Elasticity of supply",
+        "learning_objectives": [
+            "Define and calculate price elasticity of supply (PES)",
+            "Explain the degrees/theoretical range of PES values",
+            "Explain determinants of PES (time, mobility of FOPs, unused capacity, storage, cost increases)"
+        ],
+        "allowed_methods": [
+            "Diagram: relatively elastic/inelastic supply",
+            "Diagram: constant PES (perfectly elastic, inelastic, unitary)",
+            "Calculation: PES, change in price/quantity from data"
+        ],
+        "explicit_exclusions": [
+            "Reasons why PES for primary commodities is lower than for manufactured products (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Microeconomics",
+        "subtopic": "Role of government in microeconomics",
+        "learning_objectives": [
+            "Explain reasons for government intervention in markets",
+            "Explain main forms of intervention (price controls, indirect taxes/subsidies, direct provision, command/control regulation)",
+            "Analyze consequences of government intervention for markets and stakeholders"
+        ],
+        "allowed_methods": [
+            "Diagram: price ceiling (maximum price)",
+            "Diagram: price floor (minimum price)",
+            "Diagram: indirect tax",
+            "Diagram: subsidy showing effects on markets and stakeholders"
+        ],
+        "explicit_exclusions": [
+            "Consumer nudges (HL only)",
+            "Calculation of effects of price controls/taxes/subsidies on markets/stakeholders (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for diagrams, AO3 for consequences"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Microeconomics",
+        "subtopic": "Market failure - externalities and common pool resources",
+        "learning_objectives": [
+            "Define socially optimum output (MSB = MSC, allocative efficiency, social surplus maximized)",
+            "Explain positive/negative externalities of production/consumption, welfare loss, merit/demerit goods",
+            "Explain common pool resources (characteristics, tragedy of commons, unsustainable production)",
+            "Explain government responses to externalities/CPRs (indirect taxes, carbon taxes, legislation, education, tradable permits, international agreements, collective governance, subsidies, government provision)",
+            "Evaluate strengths/limitations of government policies to correct externalities/manage CPRs"
+        ],
+        "allowed_methods": [
+            "Diagram: allocative efficiency",
+            "Diagram: market failure due to negative/positive externalities of production/consumption",
+            "Diagram: government responses (indirect taxes, subsidies, legislation, education) showing effects on a polluting industry"
+        ],
+        "explicit_exclusions": [
+            "Calculation of welfare loss from a diagram (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for diagrams, AO3 for evaluation"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Microeconomics",
+        "subtopic": "Market failure - public goods",
+        "learning_objectives": [
+            "Define public goods (non-rivalrous, non-excludable) and the free rider problem",
+            "Evaluate government intervention for public goods (direct provision, contracting out)"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO3"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Macroeconomics",
+        "subtopic": "Measuring economic activity and variations",
+        "learning_objectives": [
+            "Explain national income accounting as a measure of economic activity",
+            "Explain equivalence of income, output, expenditure approaches with reference to circular flow model",
+            "Define and calculate [nominal] GDP (expenditure approach), [nominal] GNI",
+            "Define and calculate real GDP/GNI using a price deflator",
+            "Define and calculate real GDP/GNI per capita (PPP)",
+            "Explain the business cycle (short-term fluctuations, long-term growth trend)",
+            "Evaluate appropriateness of GDP/GNI for measuring economic well-being (comparisons over time/between countries)",
+            "Describe alternative measures of well-being (OECD Better Life Index, Happiness Index, Happy Planet Index)"
+        ],
+        "allowed_methods": [
+            "Diagram: circular flow of income model showing interactions, leakages, injections",
+            "Diagram: business cycle showing fluctuations and long-term growth trend",
+            "Calculation: nominal GDP from national income data (expenditure approach)",
+            "Calculation: nominal GNI from data",
+            "Calculation: real GDP/GNI using a price deflator",
+            "Calculation: real GDP per capita, real GNI per capita"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for calculations/diagrams, AO3 for evaluation"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Macroeconomics",
+        "subtopic": "Variations in economic activity - aggregate demand and aggregate supply",
+        "learning_objectives": [
+            "Define aggregate demand (AD) and its components (C+I+G+X-M)",
+            "Explain determinants of AD components (C, I, G, X-M)",
+            "Illustrate shifts of the AD curve",
+            "Explain the short-run aggregate supply (SRAS) curve and its determinants (costs of FOPs, indirect taxes)",
+            "Illustrate shifts of the SRAS curve",
+            "Explain alternative views of aggregate supply (monetarist/new classical LRAS, Keynesian AS, inflationary/deflationary gaps)",
+            "Illustrate shifts of LRAS/Keynesian AS (changes in quantity/quality of FOPs, technology, efficiency, institutions)",
+            "Explain macroeconomic equilibrium (short-run, monetarist/new classical long-run at full employment, automatic adjustment, natural rate of unemployment; Keynesian persistence of deflationary gaps)",
+            "Compare assumptions/implications of monetarist/new classical and Keynesian models"
+        ],
+        "allowed_methods": [
+            "Diagram: AD curve",
+            "Diagram: shifts of AD curve",
+            "Diagram: SRAS curve",
+            "Diagram: shifts of SRAS curve",
+            "Diagram: alternative views of AS curve",
+            "Diagram: shifts of LRAS or Keynesian AS",
+            "Diagram: macroeconomic equilibrium in short and long run"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for diagrams, AO3 for comparison"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Macroeconomics",
+        "subtopic": "Macroeconomic objectives",
+        "learning_objectives": [
+            "Explain economic growth (short-term: actual growth in PPC, role of AD; long-term: shifts of PPC, role of LRAS)",
+            "Measure economic growth rate from data",
+            "Evaluate consequences of economic growth (living standards, environment, income distribution)",
+            "Define and measure unemployment and the unemployment rate from data",
+            "Explain difficulties measuring unemployment",
+            "Explain causes of unemployment (cyclical, structural, seasonal, frictional)",
+            "Define natural rate of unemployment",
+            "Explain costs of unemployment (personal, social, economic)",
+            "Define and measure inflation rate using CPI data",
+            "Explain limitations of CPI",
+            "Explain causes of inflation (demand-pull, cost-push)",
+            "Explain costs of high inflation",
+            "Explain causes of deflation (changes in AD/SRAS), disinflation",
+            "Explain costs of deflation",
+            "Evaluate relative costs of unemployment vs inflation",
+            "Evaluate potential conflicts between macroeconomic objectives (unemployment/inflation, growth/inflation, growth/sustainability, growth/equity)"
+        ],
+        "allowed_methods": [
+            "Diagram: PPC showing actual growth and growth in production possibilities",
+            "Diagram: AD increases showing real output increase",
+            "Diagram: LRAS increases showing full employment output increase",
+            "Diagram: minimum wage showing unemployment",
+            "Diagram: fall in demand for labour for a particular market/area",
+            "Diagram: deflationary gap showing cyclical unemployment",
+            "Diagram: demand-pull inflation",
+            "Diagram: cost-push inflation",
+            "Diagram: deflation",
+            "Calculation: rate of economic growth from data",
+            "Calculation: unemployment rate from data",
+            "Calculation: inflation rate from data using quantities as weights in CPI"
+        ],
+        "explicit_exclusions": [
+            "Sustainable level of government debt (HL only)",
+            "Calculation of weighted price index (HL only)",
+            "Trade-off between unemployment and inflation (Phillips curve) (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for calculations/diagrams, AO3 for evaluation"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Macroeconomics",
+        "subtopic": "Economics of inequality and poverty",
+        "learning_objectives": [
+            "Distinguish between equality and equity",
+            "Define economic inequality (unequal distribution of income/wealth)",
+            "Measure economic inequality using Lorenz curve and Gini coefficient",
+            "Define poverty (absolute vs relative)",
+            "Measure poverty using single indicators (poverty lines, minimum income) and composite indicators (MPI)",
+            "Explain difficulties measuring poverty",
+            "Explain causes of inequality/poverty (inequality of opportunity, resource ownership, human capital, discrimination, status/power, tax/benefits policies, globalization, technology, market-based policies)",
+            "Evaluate impact of income/wealth inequality on economic growth, living standards, social stability",
+            "Explain the role of taxation in reducing inequality (progressive, regressive, proportional; average/marginal rates; direct/indirect taxes)",
+            "Evaluate further policies to reduce poverty/inequality (opportunities/human capital, transfer payments, targeted spending, universal basic income, anti-discrimination, minimum wages)"
+        ],
+        "allowed_methods": [
+            "Diagram: Lorenz curve showing distribution of income and changes"
+        ],
+        "explicit_exclusions": [
+            "Construction of Lorenz curve from income quintile data (HL only)",
+            "Calculation of indirect tax paid from expenditure given rate (HL only)",
+            "Calculation of total/average tax rates from data (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO3, AO4 for diagram"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Macroeconomics",
+        "subtopic": "Demand management - monetary policy",
+        "learning_objectives": [
+            "Define monetary policy (control of money supply/interest rates by central bank)",
+            "Explain goals of monetary policy (low inflation, low unemployment, reduce business cycle fluctuations, stable environment for growth, external balance)",
+            "Explain expansionary/contractionary monetary policies to close deflationary/inflationary gaps",
+            "Evaluate effectiveness of monetary policy (constraints: interest rates near zero, low confidence; strengths: incremental, flexible, short lags; strengths/limitations for growth, unemployment, inflation)"
+        ],
+        "allowed_methods": [
+            "Diagram: AD/AS curves showing expansionary/contractionary monetary policy"
+        ],
+        "explicit_exclusions": [
+            "Process of money creation by commercial banks (HL only)",
+            "Tools of monetary policy (open market operations, reserve requirements, base rate changes, quantitative easing) (HL only)",
+            "Demand/supply of money determination of equilibrium interest rates (HL only)",
+            "Calculation of real interest rates (AO2, but calculation allowed)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO1, AO2, AO3, AO4 for diagram"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Macroeconomics",
+        "subtopic": "Demand management - fiscal policy",
+        "learning_objectives": [
+            "Define fiscal policy (sources of revenue, expenditures)",
+            "Explain goals of fiscal policy (low inflation, low unemployment, stable growth, reduce business cycles, equitable income distribution, external balance)",
+            "Explain expansionary/contractionary fiscal policies to close deflationary/inflationary gaps",
+            "Evaluate effectiveness of fiscal policy (constraints: political pressure, time lags, sustainable debt; strengths: targeting sectors, effective in deep recession; strengths/limitations for growth, unemployment, inflation)"
+        ],
+        "allowed_methods": [
+            "Diagram: AD/AS curves showing expansionary/contractionary fiscal policy for Keynesian and monetarist/new classical views"
+        ],
+        "explicit_exclusions": [
+            "Keynesian multiplier (HL only)",
+            "Automatic stabilizers (HL only)",
+            "Crowding-out effect (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO3, AO4 for diagram"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "Macroeconomics",
+        "subtopic": "Supply-side policies",
+        "learning_objectives": [
+            "Explain goals of supply-side policies (long-term growth, competition/efficiency, reduce labour costs/unemployment, reduce inflation, increase investment incentives)",
+            "Explain market-based policies (encourage competition: deregulation, privatization, trade liberalization, anti-monopoly; labour market: reduce union power, unemployment benefits, abolish minimum wages; incentives: income tax cuts, business/capital gains tax cuts)",
+            "Explain interventionist policies (education/training, health care, R&D, infrastructure, industrial policies)",
+            "Explain demand-side effects of supply-side policies",
+            "Explain supply-side effects of fiscal policies",
+            "Evaluate effectiveness of supply-side policies (constraints: equity, time lags, vested interests, environmental impact, costs; strengths: improved allocation, no budget burden, direct support for growth sectors; strengths/limitations for growth, unemployment, inflation)"
+        ],
+        "allowed_methods": [
+            "Diagram: AD/AS model and LRAS curve showing effect of supply-side policies",
+            "Diagram: showing minimum wage"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO3, AO4 for diagrams"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Benefits of international trade",
+        "learning_objectives": [
+            "Explain benefits of international trade (increased competition, lower prices, greater choice, resource acquisition, foreign exchange, access to markets, economies of scale, efficient allocation/production)"
+        ],
+        "allowed_methods": [
+            "Diagram: free trade illustrating exports when world price > domestic price",
+            "Diagram: free trade illustrating imports when world price < domestic price"
+        ],
+        "explicit_exclusions": [
+            "Absolute and comparative advantage (HL only)",
+            "Calculation of quantity of exports/imports, import expenditure, export revenue from diagram (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO4 for diagrams"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Types of trade protection",
+        "learning_objectives": [
+            "Analyze effects of tariffs on markets and stakeholders (price, production, consumption, expenditures, revenues, welfare)",
+            "Analyze effects of quotas on markets and stakeholders",
+            "Analyze effects of subsidies/export subsidies on markets and stakeholders",
+            "Explain administrative barriers (standards/regulations)"
+        ],
+        "allowed_methods": [
+            "Diagram: effect of a tariff on price, production, consumption, expenditures, revenues, welfare",
+            "Diagram: effect of a quota",
+            "Diagram: effect of a subsidy"
+        ],
+        "explicit_exclusions": [
+            "Calculation of effects on stakeholders of tariffs/quotas/subsidies from diagram (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO3, AO4 for diagrams"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Arguments for and against trade control/protection",
+        "learning_objectives": [
+            "Explain arguments for trade protection (infant industries, national security, health/safety, environmental standards, anti-dumping, unfair competition, balance of payments, government revenue, job protection, ELDC diversification)",
+            "Explain arguments against trade protection (misallocation, retaliation, increased costs, higher prices, less choice, reduced efficiency, reduced export competitiveness)",
+            "Discuss free trade vs trade protection"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO3"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Economic integration",
+        "learning_objectives": [
+            "Define preferential trade agreements (bilateral, regional, multilateral/WTO)",
+            "Define trading blocs (free trade areas, customs unions, common markets)",
+            "Evaluate advantages/disadvantages of trading blocs",
+            "Define monetary union",
+            "Describe objectives/functions of the WTO",
+            "Explain factors affecting WTO influence (difficulties on services/primary products, unequal bargaining power)"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [
+            "Trade creation/trade diversion (HL only)",
+            "Advantages/disadvantages of monetary union (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO1, AO2, AO3"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Exchange rates",
+        "learning_objectives": [
+            "Explain floating exchange rates (determination, depreciation/appreciation)",
+            "Calculate price of a good in different currencies using exchange rates",
+            "Explain factors causing changes in demand/supply for a currency (exports, imports, FDI, portfolio investment, remittances, speculation, relative inflation/interest/growth rates, central bank intervention)",
+            "Evaluate consequences of exchange rate changes on inflation, growth, unemployment, current account, living standards",
+            "Explain fixed exchange rates (devaluation/revaluation, how maintained)",
+            "Explain managed exchange rates (overvalued/undervalued currencies)"
+        ],
+        "allowed_methods": [
+            "Diagram: exchange rate determination and changes in equilibrium in a floating system",
+            "Diagram: how a fixed exchange rate is maintained",
+            "Diagram: exchange rate determination in a managed system",
+            "Calculation: changes in currency value from data"
+        ],
+        "explicit_exclusions": [
+            "Fixed vs floating exchange rate systems (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO3, AO4 for diagrams/calculations"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Balance of payments",
+        "learning_objectives": [
+            "Define balance of payments (credit/debit items, surplus/deficit)",
+            "Calculate elements of balance of payments from data",
+            "Explain components of balance of payments (current account: goods, services, income, transfers; capital account: transfers, non-produced assets; financial account: FDI, portfolio, reserve assets, official borrowing)",
+            "Explain interdependence between accounts (zero balance, credits matched by debits, deficits matched by surpluses)"
+        ],
+        "allowed_methods": [
+            "Calculation: elements of balance of payments from data"
+        ],
+        "explicit_exclusions": [
+            "Relationship between current account and exchange rate (HL only)",
+            "Relationship between financial account and exchange rate (HL only)",
+            "Implications of persistent current account deficit/surplus (HL only)",
+            "Methods to correct persistent deficit (HL only)",
+            "Marshall-Lerner condition and J-curve (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO1, AO2, AO4 for calculation"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Sustainable development",
+        "learning_objectives": [
+            "Define sustainable development",
+            "Describe Sustainable Development Goals (SDGs)"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [
+            "Relationship between sustainability and poverty (HL only)"
+        ],
+        "exam_style_notes": [
+            "Assessment objective: AO2"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Measuring development",
+        "learning_objectives": [
+            "Explain the multidimensional nature of economic development",
+            "Describe single indicators (GDP/GNI per capita PPP, health/education, inequality, energy, environmental)",
+            "Describe composite indicators (HDI, GII, IHDI, Happy Planet Index)",
+            "Evaluate strengths/limitations of approaches to measuring development",
+            "Discuss possible relationship between economic growth and development"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO3"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Barriers to economic growth/development",
+        "learning_objectives": [
+            "Explain poverty traps/cycles",
+            "Explain economic barriers (rising inequality, lack of infrastructure/technology, low human capital, primary sector dependence, lack of market access, informal economy, capital flight, indebtedness, geography, climate/disease)",
+            "Explain political/social barriers (weak institutions: legal, tax, banking, property rights; gender inequality; lack of governance/corruption; unequal political power)",
+            "Evaluate significance of different barriers"
+        ],
+        "allowed_methods": [
+            "Diagram: poverty cycle showing linked factors"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO3, AO4 for diagram"
+        ]
+    },
+    {
+        "curriculum": "IB",
+        "subject": "Economics",
+        "level": "SL",
+        "topic": "The global economy",
+        "subtopic": "Economic growth/development strategies",
+        "learning_objectives": [
+            "Explain strategies to promote growth/development (trade: import substitution, export promotion, integration; diversification; social enterprise; market-based: liberalization, privatization, deregulation; interventionist: redistribution, merit goods provision, infrastructure, industrial policies; inward FDI; foreign aid: humanitarian/development, debt relief, ODA, NGOs; multilateral assistance: World Bank, IMF; institutional change: banking/microfinance, women's empowerment, reducing corruption, property/land rights)",
+            "Evaluate strengths/limitations of strategies",
+            "Evaluate government intervention vs market-oriented approaches",
+            "Evaluate progress toward meeting SDGs in context of two or more countries"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": [
+            "Assessment objective: AO2, AO3"
+        ]
+    }
+]

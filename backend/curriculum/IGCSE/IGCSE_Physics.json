@@ -1,0 +1,1710 @@
+[
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.1 Physical quantities and measurement techniques",
+        "learning_objectives": [
+            "Describe the use of rulers and measuring cylinders to find a length or a volume",
+            "Describe how to measure a variety of time intervals using clocks and digital timers",
+            "Determine an average value for a small distance and for a short interval of time by measuring multiples (including the period of oscillation of a pendulum)"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.1 Physical quantities and measurement techniques",
+        "learning_objectives": [
+            "Understand that a scalar quantity has magnitude (size) only and that a vector quantity has magnitude and direction",
+            "Know that distance, speed, time, mass, energy and temperature are scalars",
+            "Know that force, weight, velocity, acceleration, momentum, electric field strength and gravitational field strength are vectors",
+            "Determine, by calculation or graphically, the resultant of two vectors at right angles, limited to forces or velocities only"
+        ],
+        "allowed_methods": [
+            "Graphical calculation of vector resultants"
+        ],
+        "explicit_exclusions": [
+            "Vector resultants beyond forces or velocities at right angles"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.2 Motion",
+        "learning_objectives": [
+            "Define speed as distance travelled per unit time",
+            "Define velocity as speed in a given direction",
+            "Recall and use the equation: average speed = total distance travelled / total time taken",
+            "Sketch, plot and interpret distance-time and speed-time graphs",
+            "Determine qualitatively from given data or graph shape when an object is at rest, moving with constant speed, accelerating, or decelerating",
+            "Calculate speed from the gradient of a straight-line section of a distance-time graph",
+            "Calculate the area under a speed-time graph to determine the distance travelled for motion with constant speed or constant acceleration",
+            "State that the acceleration of free fall g near Earth's surface is approximately constant and approximately 9.8 m/s²"
+        ],
+        "allowed_methods": [
+            "Equations: v = s/t",
+            "Graphical analysis of distance-time and speed-time graphs"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.2 Motion",
+        "learning_objectives": [
+            "Define acceleration as change in velocity per unit time",
+            "Recall and use the equation a = Δv/Δt",
+            "Determine from data or graph shape when an object is moving with constant or changing acceleration",
+            "Calculate acceleration from the gradient of a speed-time graph",
+            "Know that deceleration is a negative acceleration and use in calculations",
+            "Describe motion of objects falling in a uniform gravitational field with and without air/liquid resistance, including terminal velocity"
+        ],
+        "allowed_methods": [
+            "Equation: a = Δv/Δt"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.3 Mass and weight",
+        "learning_objectives": [
+            "State that mass is a measure of the quantity of matter in an object at rest relative to the observer",
+            "State that weight is a gravitational force on an object that has mass",
+            "Define gravitational field strength as force per unit mass; recall and use the equation g = W/m and know it is equivalent to acceleration of free fall",
+            "Know that weights (and masses) may be compared using a balance"
+        ],
+        "allowed_methods": [
+            "Equation: g = W/m"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.3 Mass and weight",
+        "learning_objectives": [
+            "Describe, and use the concept of, weight as the effect of a gravitational field on a mass"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.4 Density",
+        "learning_objectives": [
+            "Define density as mass per unit volume; recall and use the equation ρ = m/V",
+            "Describe how to determine density of a liquid, a regularly shaped solid, and an irregularly shaped solid which sinks (volume by displacement), including calculations",
+            "Determine whether an object floats based on density data"
+        ],
+        "allowed_methods": [
+            "Equation: ρ = m/V",
+            "Volume by displacement method"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.4 Density",
+        "learning_objectives": [
+            "Determine whether one liquid will float on another based on density data given liquids do not mix"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.5 Forces - Effects of forces",
+        "learning_objectives": [
+            "Know that forces may produce changes in the size and shape of an object",
+            "Sketch, plot and interpret load-extension graphs for an elastic solid and describe associated experimental procedures",
+            "Determine the resultant of two or more forces acting along the same straight line",
+            "Know that an object remains at rest or continues at constant speed in a straight line unless acted on by a resultant force",
+            "State that a resultant force may change velocity by changing direction or speed",
+            "Describe solid friction as force between surfaces that may impede motion and produce heating",
+            "Know that friction (drag) acts on an object moving through a liquid",
+            "Know that friction (drag) acts on an object moving through a gas (e.g., air resistance)"
+        ],
+        "allowed_methods": [
+            "Graphical analysis of load-extension graphs"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.5 Forces - Effects of forces",
+        "learning_objectives": [
+            "Define spring constant as force per unit extension; recall and use equation k = F/x",
+            "Define and use term 'limit of proportionality' for a load-extension graph and identify point on graph",
+            "Recall and use equation F = ma and know force and acceleration are in same direction",
+            "Describe qualitatively motion in a circular path due to a perpendicular force regarding speed, radius, and mass relationships"
+        ],
+        "allowed_methods": [
+            "Equations: k = F/x, F = ma"
+        ],
+        "explicit_exclusions": [
+            "Understanding of elastic limit",
+            "Equation F = mv²/r"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.5 Forces - Turning effect of forces",
+        "learning_objectives": [
+            "Describe moment of a force as a measure of turning effect with everyday examples",
+            "Define moment = force × perpendicular distance from pivot; recall and use equation",
+            "Apply principle of moments to situations with one force each side of pivot, including beam balancing",
+            "State that when no resultant force and no resultant moment, object is in equilibrium"
+        ],
+        "allowed_methods": [
+            "Equation: moment = force × perpendicular distance"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.5 Forces - Turning effect of forces",
+        "learning_objectives": [
+            "Apply principle of moments to other situations, including more than one force each side of pivot",
+            "Describe experiment to demonstrate no resultant moment on object in equilibrium"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.5 Forces - Centre of gravity",
+        "learning_objectives": [
+            "State meaning of centre of gravity",
+            "Describe experiment to determine position of centre of gravity of irregularly shaped plane lamina",
+            "Describe qualitatively effect of centre of gravity position on stability of simple objects"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.6 Momentum",
+        "learning_objectives": [
+            "Define momentum as mass × velocity; recall and use equation p = mv",
+            "Define impulse as force × time for which force acts; recall and use equation impulse = FΔt = Δ(mv)",
+            "Apply principle of conservation of momentum to solve simple 1D problems",
+            "Define resultant force as change in momentum per unit time; recall and use equation F = Δp/Δt"
+        ],
+        "allowed_methods": [
+            "Equations: p = mv, impulse = FΔt = Δ(mv), F = Δp/Δt"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.7 Energy, work and power - Energy",
+        "learning_objectives": [
+            "State that energy may be stored as kinetic, gravitational potential, chemical, elastic (strain), nuclear, electrostatic, and internal (thermal)",
+            "Describe energy transfer between stores during events and processes, including by forces, electrical currents, heating, electromagnetic/sound waves",
+            "Know principle of conservation of energy and apply to simple examples including interpreting simple flow diagrams"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.7 Energy, work and power - Energy",
+        "learning_objectives": [
+            "Recall and use equation for kinetic energy: Ek = ½ mv²",
+            "Recall and use equation for change in gravitational potential energy: ΔEp = mgΔh",
+            "Know principle of conservation of energy and apply to complex examples with multiple stages, including interpreting Sankey diagrams"
+        ],
+        "allowed_methods": [
+            "Equations: Ek = ½ mv², ΔEp = mgΔh"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.7 Energy, work and power - Work",
+        "learning_objectives": [
+            "Understand mechanical/electrical work done equals energy transferred",
+            "Recall and use equation for mechanical work: W = Fd = ΔE"
+        ],
+        "allowed_methods": [
+            "Equation: W = Fd = ΔE"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.7 Energy, work and power - Energy resources",
+        "learning_objectives": [
+            "Describe how useful energy/electrical power may be obtained from chemical energy in fossil fuels, biofuels, water, geothermal, nuclear, solar cells, solar panels, wind",
+            "Describe advantages/disadvantages of each method regarding renewability, availability, reliability, scale, environmental impact",
+            "Understand qualitatively concept of efficiency of energy transfer"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.7 Energy, work and power - Energy resources",
+        "learning_objectives": [
+            "Know radiation from Sun is main source for all energy resources except geothermal, nuclear, tidal",
+            "Know energy released by nuclear fusion in Sun",
+            "Know research ongoing for large-scale electrical energy from nuclear fusion",
+            "Define efficiency as % = (useful energy output / total energy input) × 100% or (useful power output / total power input) × 100%"
+        ],
+        "allowed_methods": [
+            "Efficiency equations"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.7 Energy, work and power - Power",
+        "learning_objectives": [
+            "Define power as work done per unit time and energy transferred per unit time; recall and use equations P = W/t, P = ΔE/t"
+        ],
+        "allowed_methods": [
+            "Equations: P = W/t, P = ΔE/t"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.8 Pressure",
+        "learning_objectives": [
+            "Define pressure as force per unit area; recall and use equation p = F/A",
+            "Describe how pressure varies with force and area in everyday examples",
+            "Describe qualitatively how pressure beneath liquid surface changes with depth and density"
+        ],
+        "allowed_methods": [
+            "Equation: p = F/A"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Motion, forces and energy",
+        "subtopic": "1.8 Pressure",
+        "learning_objectives": [
+            "Recall and use equation for change in pressure beneath liquid surface: Δp = ρgΔh"
+        ],
+        "allowed_methods": [
+            "Equation: Δp = ρgΔh"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.1 Kinetic particle model of matter - States of matter",
+        "learning_objectives": [
+            "Know distinguishing properties of solids, liquids, gases",
+            "Know terms for changes in state between solids, liquids, gases"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [
+            "Gas to solid and solid to gas transfers"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.1 Kinetic particle model of matter - Particle model",
+        "learning_objectives": [
+            "Describe particle structure of solids, liquids, gases in terms of arrangement, separation, motion, using simple particle diagrams",
+            "Describe relationship between particle motion and temperature, including absolute zero concept",
+            "Describe pressure and pressure changes of gas in terms of particle motion and collisions with surface",
+            "Know random motion of microscopic particles in suspension is evidence for kinetic particle model",
+            "Describe and explain Brownian motion in terms of random collisions"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Thermal physics",
+        "subtopic": "2.1 Kinetic particle model of matter - Particle model",
+        "learning_objectives": [
+            "Know forces and distances between particles and their motion affect properties of solids, liquids, gases",
+            "Describe pressure and pressure changes in terms of forces exerted by colliding particles creating force per unit area",
+            "Know microscopic particles may be moved by collisions with fast molecules; distinguish atoms/molecules from microscopic particles"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.1 Kinetic particle model of matter - Gases and absolute temperature",
+        "learning_objectives": [
+            "Describe qualitatively in terms of particles effect on pressure of fixed gas mass due to temperature change at constant volume and volume change at constant temperature",
+            "Convert between kelvin and degrees Celsius; recall and use T(K) = θ(°C) + 273"
+        ],
+        "allowed_methods": [
+            "Equation: T(K) = θ(°C) + 273"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Thermal physics",
+        "subtopic": "2.1 Kinetic particle model of matter - Gases and absolute temperature",
+        "learning_objectives": [
+            "Recall and use equation pV = constant for fixed gas mass at constant temperature, including graphical representation"
+        ],
+        "allowed_methods": [
+            "Equation: pV = constant"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.2 Thermal properties and temperature - Thermal expansion",
+        "learning_objectives": [
+            "Describe qualitatively thermal expansion of solids, liquids, gases at constant pressure",
+            "Describe everyday applications and consequences of thermal expansion"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Thermal physics",
+        "subtopic": "2.2 Thermal properties and temperature - Thermal expansion",
+        "learning_objectives": [
+            "Explain in terms of particle motion and arrangement relative order of magnitudes of expansion of solids, liquids, gases as temperature rises"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.2 Thermal properties and temperature - Specific heat capacity",
+        "learning_objectives": [
+            "Know that rise in temperature increases internal energy"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Thermal physics",
+        "subtopic": "2.2 Thermal properties and temperature - Specific heat capacity",
+        "learning_objectives": [
+            "Describe temperature increase in terms of increase in average kinetic energies of particles",
+            "Define specific heat capacity as energy required per unit mass per unit temperature increase; recall and use equation c = ΔE/(mΔθ)",
+            "Describe experiments to measure specific heat capacity of solid and liquid"
+        ],
+        "allowed_methods": [
+            "Equation: c = ΔE/(mΔθ)"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.2 Thermal properties and temperature - Melting, boiling, evaporation",
+        "learning_objectives": [
+            "Describe melting and boiling in terms of energy input without temperature change",
+            "Know melting and boiling temperatures for water at standard atmospheric pressure",
+            "Describe condensation and solidification in terms of particles",
+            "Describe evaporation as escape of more-energetic particles from liquid surface",
+            "Know evaporation causes cooling"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Thermal physics",
+        "subtopic": "2.2 Thermal properties and temperature - Melting, boiling, evaporation",
+        "learning_objectives": [
+            "Describe differences between boiling and evaporation",
+            "Describe how temperature, surface area, air movement affect evaporation",
+            "Explain cooling of object in contact with evaporating liquid"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.3 Transfer of thermal energy - Conduction",
+        "learning_objectives": [
+            "Describe experiments to demonstrate properties of good thermal conductors and insulators"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Thermal physics",
+        "subtopic": "2.3 Transfer of thermal energy - Conduction",
+        "learning_objectives": [
+            "Describe thermal conduction in solids in terms of lattice vibrations and free electron movement (metals)",
+            "Describe in terms of particles why thermal conduction is poor in gases and most liquids",
+            "Know many solids conduct better than insulators but less than good conductors"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.3 Transfer of thermal energy - Convection",
+        "learning_objectives": [
+            "Know convection is important thermal energy transfer method in liquids and gases",
+            "Explain convection in liquids/gases in terms of density changes and describe experiments"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.3 Transfer of thermal energy - Radiation",
+        "learning_objectives": [
+            "Know thermal radiation is infrared radiation; all objects emit it",
+            "Know thermal radiation transfer does not require a medium",
+            "Describe effect of surface colour and texture on emission, absorption, reflection of infrared radiation"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Thermal physics",
+        "subtopic": "2.3 Transfer of thermal energy - Radiation",
+        "learning_objectives": [
+            "Know for constant temperature, energy transfer away equals energy received",
+            "Know what happens if energy received is less/more than energy transferred away",
+            "Know how Earth's temperature is affected by factors controlling incoming/outgoing radiation balance",
+            "Describe experiments to distinguish good/bad emitters and absorbers of infrared radiation",
+            "Describe how rate of emission depends on surface temperature and surface area"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Thermal physics",
+        "subtopic": "2.3 Transfer of thermal energy - Consequences of transfer",
+        "learning_objectives": [
+            "Explain basic everyday applications/consequences of conduction, convection, radiation (e.g., heating pans, heating room by convection)"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Thermal physics",
+        "subtopic": "2.3 Transfer of thermal energy - Consequences of transfer",
+        "learning_objectives": [
+            "Explain complex applications where more than one type of thermal transfer is significant (e.g., fire burning wood/coal, car radiator)"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Waves",
+        "subtopic": "3.1 General properties of waves",
+        "learning_objectives": [
+            "Know waves transfer energy without transferring matter",
+            "Describe wave motion using vibrations in ropes/springs and water wave experiments",
+            "Describe features: wavefront, wavelength, frequency, crest, trough, amplitude, wave speed",
+            "Recall and use wave speed equation v = fλ",
+            "Know for transverse wave, vibration direction is perpendicular to propagation; electromagnetic radiation, water waves, S-waves modelled as transverse",
+            "Know for longitudinal wave, vibration direction is parallel to propagation; sound waves, P-waves modelled as longitudinal",
+            "Describe reflection at plane surface, refraction due to speed change, diffraction through narrow gap",
+            "Describe use of ripple tank to show reflection, refraction (depth change), diffraction (gap, edge)"
+        ],
+        "allowed_methods": [
+            "Equation: v = fλ",
+            "Ripple tank demonstrations"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Waves",
+        "subtopic": "3.1 General properties of waves",
+        "learning_objectives": [
+            "Describe how wavelength and gap size affect diffraction through a gap",
+            "Describe how wavelength affects diffraction at an edge"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Waves",
+        "subtopic": "3.2 Light - Reflection",
+        "learning_objectives": [
+            "Define and use terms normal, angle of incidence, angle of reflection",
+            "Describe formation of optical image by plane mirror and characteristics: same size, same distance, virtual",
+            "State angle of incidence = angle of reflection; recall and use"
+        ],
+        "allowed_methods": [
+            "Angle of incidence = angle of reflection"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Waves",
+        "subtopic": "3.2 Light - Reflection",
+        "learning_objectives": [
+            "Use simple constructions, measurements, calculations for reflection by plane mirrors"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Waves",
+        "subtopic": "3.2 Light - Refraction",
+        "learning_objectives": [
+            "Define and use terms normal, angle of incidence, angle of refraction",
+            "Describe experiment to show refraction by transparent blocks of different shapes",
+            "Describe passage of light through transparent material (boundaries between two mediums only)",
+            "State meaning of critical angle",
+            "Describe internal reflection and total internal reflection using experiments and everyday examples"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Waves",
+        "subtopic": "3.2 Light - Refraction",
+        "learning_objectives": [
+            "Define refractive index n as ratio of wave speeds in two regions",
+            "Recall and use n = sin i / sin r",
+            "Recall and use n = 1 / sin c",
+            "Describe use of optical fibres, particularly in telecommunications"
+        ],
+        "allowed_methods": [
+            "Equations: n = sin i / sin r, n = 1 / sin c"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Waves",
+        "subtopic": "3.2 Light - Thin lenses",
+        "learning_objectives": [
+            "Describe action of thin converging and diverging lenses on parallel beam",
+            "Define and use terms focal length, principal axis, principal focus",
+            "Draw and use ray diagrams for formation of real image by converging lens",
+            "Describe image characteristics: enlarged/same size/diminished, upright/inverted, real/virtual",
+            "Know virtual image formed when diverging rays extrapolated backwards; not visible on screen"
+        ],
+        "allowed_methods": [
+            "Ray diagrams for real image formation"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Waves",
+        "subtopic": "3.2 Light - Thin lenses",
+        "learning_objectives": [
+            "Draw and use ray diagrams for formation of virtual image by converging lens",
+            "Describe use of single lens as magnifying glass",
+            "Describe use of converging/diverging lenses to correct long-sightedness and short-sightedness"
+        ],
+        "allowed_methods": [
+            "Ray diagrams for virtual image formation"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Waves",
+        "subtopic": "3.2 Light - Dispersion",
+        "learning_objectives": [
+            "Describe dispersion as refraction of white light by glass prism",
+            "Know traditional seven colours of visible spectrum in order of frequency and wavelength"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Waves",
+        "subtopic": "3.2 Light - Dispersion",
+        "learning_objectives": [
+            "Recall visible light of single frequency described as monochromatic"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Waves",
+        "subtopic": "3.3 Electromagnetic spectrum",
+        "learning_objectives": [
+            "Know main regions of EM spectrum in order of frequency and wavelength",
+            "Know all EM waves travel at same high speed in vacuum",
+            "Describe typical uses of different regions: radio, microwaves, infrared, visible, ultraviolet, X-rays, gamma rays",
+            "Describe harmful effects of excessive exposure: microwaves, infrared, ultraviolet, X-rays/gamma",
+            "Know communication with artificial satellites mainly by microwaves; low orbit and geostationary"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Waves",
+        "subtopic": "3.3 Electromagnetic spectrum",
+        "learning_objectives": [
+            "Know speed in vacuum is 3.0×10^8 m/s; approximately same in air",
+            "Know many communication systems rely on EM radiation: mobile phones/wireless internet (microwaves), Bluetooth (radio waves), optical fibres (visible/IR)",
+            "Know difference between digital and analogue signal",
+            "Know sound can be transmitted as digital or analogue",
+            "Explain benefits of digital signalling: increased data rate, range due to accurate regeneration"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Waves",
+        "subtopic": "3.4 Sound",
+        "learning_objectives": [
+            "Describe production of sound by vibrating sources",
+            "Describe longitudinal nature of sound waves",
+            "State approximate audible frequency range: 20 Hz to 20 kHz",
+            "Know medium needed to transmit sound waves",
+            "Know speed in air approx. 330–350 m/s",
+            "Describe method determining speed using distance/time measurement",
+            "Describe how amplitude/frequency affect loudness/pitch",
+            "Describe echo as reflection of sound waves",
+            "Define ultrasound as >20 kHz"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Waves",
+        "subtopic": "3.4 Sound",
+        "learning_objectives": [
+            "Describe compression and rarefaction",
+            "Know sound travels faster in solids than liquids, faster in liquids than gases",
+            "Describe uses of ultrasound in non-destructive testing, medical scanning, sonar (depth/distance calculation)"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.1 Simple phenomena of magnetism",
+        "learning_objectives": [
+            "Describe forces between magnetic poles and between magnets/magnetic materials",
+            "Describe induced magnetism",
+            "State differences between temporary (soft iron) and permanent (steel) magnets",
+            "State difference between magnetic and non-magnetic materials",
+            "Describe magnetic field as region where magnetic pole experiences force",
+            "Draw pattern/direction of magnetic field lines around bar magnet",
+            "State direction of field at point is force direction on N pole at that point",
+            "Describe plotting field lines with compass/iron filings and using compass to determine direction",
+            "Describe uses of permanent magnets and electromagnets"
+        ],
+        "allowed_methods": [
+            "Compass, iron filings for field line plotting"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.1 Simple phenomena of magnetism",
+        "learning_objectives": [
+            "Explain magnetic forces due to interactions between magnetic fields",
+            "Know relative field strength represented by spacing of field lines"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.2 Electrical quantities - Electric charge",
+        "learning_objectives": [
+            "State there are positive and negative charges",
+            "State like charges repel, opposite attract",
+            "Describe experiments to produce/detect electrostatic charges by friction",
+            "Explain charging by friction involves only electron transfer",
+            "Describe experiment to distinguish conductors/insulators",
+            "Use simple electron model to explain difference between conductors/insulators with examples"
+        ],
+        "allowed_methods": [
+            "Electron model for conductors/insulators"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.2 Electrical quantities - Electric charge",
+        "learning_objectives": [
+            "State charge measured in coulombs",
+            "Describe electric field as region where charge experiences force",
+            "State field direction at point is force direction on positive charge at that point",
+            "Describe simple field patterns around point charge, charged sphere, oppositely charged plates"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [
+            "Examination of end effects for parallel plates"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.2 Electrical quantities - Electric current",
+        "learning_objectives": [
+            "Know electric current related to flow of charge",
+            "Describe use of ammeters (analogue/digital) with different ranges",
+            "Describe conduction in metals in terms of free electron movement",
+            "Know difference between DC and AC"
+        ],
+        "allowed_methods": [
+            "Ammeter use"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.2 Electrical quantities - Electric current",
+        "learning_objectives": [
+            "Define current as charge passing point per unit time; use I = Q/t",
+            "State conventional current from positive to negative; electron flow negative to positive"
+        ],
+        "allowed_methods": [
+            "Equation: I = Q/t"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.2 Electrical quantities - EMF and potential difference",
+        "learning_objectives": [
+            "Define EMF as electrical work done by source moving unit charge around complete circuit",
+            "Know EMF measured in volts",
+            "Define PD as work done by unit charge passing through component",
+            "Know PD measured in volts",
+            "Describe use of voltmeters (analogue/digital) with different ranges"
+        ],
+        "allowed_methods": [
+            "Voltmeter use"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.2 Electrical quantities - EMF and potential difference",
+        "learning_objectives": [
+            "Recall and use equation for EMF: E = W/Q",
+            "Recall and use equation for PD: V = W/Q"
+        ],
+        "allowed_methods": [
+            "Equations: E = W/Q, V = W/Q"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.2 Electrical quantities - Resistance",
+        "learning_objectives": [
+            "Recall and use R = V/I",
+            "Describe experiment to determine resistance using voltmeter and ammeter with calculations",
+            "State qualitatively relationship of metallic wire resistance to length and cross-sectional area"
+        ],
+        "allowed_methods": [
+            "Equation: R = V/I",
+            "Experiment with voltmeter/ammeter"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.2 Electrical quantities - Resistance",
+        "learning_objectives": [
+            "Sketch/explain I-V graphs for constant resistor, filament lamp, diode",
+            "Recall and use: resistance directly proportional to length, inversely proportional to cross-sectional area"
+        ],
+        "allowed_methods": [
+            "I-V graphs"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.2 Electrical quantities - Electrical energy and power",
+        "learning_objectives": [
+            "Understand circuits transfer energy from source to components to surroundings",
+            "Recall and use P = IV",
+            "Recall and use E = IVt",
+            "Define kilowatt-hour; calculate cost where energy unit is kWh"
+        ],
+        "allowed_methods": [
+            "Equations: P = IV, E = IVt"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.3 Electric circuits - Circuit diagrams",
+        "learning_objectives": [
+            "Draw and interpret circuit diagrams containing cells, batteries, supplies, generators, dividers, switches, resistors, heaters, thermistors (NTC), LDRs, lamps, motors, bells, ammeters, voltmeters, magnetising coils, transformers, fuses, relays",
+            "Know how components behave in circuit"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.3 Electric circuits - Circuit diagrams",
+        "learning_objectives": [
+            "Draw/interpret circuit diagrams containing diodes and LEDs; know behavior"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.3 Electric circuits - Series and parallel",
+        "learning_objectives": [
+            "Know current at every point in series circuit is same",
+            "Know how to construct and use series/parallel circuits",
+            "Calculate combined EMF of sources in series",
+            "Calculate combined resistance of resistors in series",
+            "State for parallel, source current larger than branch current",
+            "State combined resistance of two parallel resistors less than either alone",
+            "State advantages of connecting lamps in parallel in lighting circuit"
+        ],
+        "allowed_methods": [
+            "Calculations for series/parallel circuits"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.3 Electric circuits - Series and parallel",
+        "learning_objectives": [
+            "Recall/use: sum currents into junction equals sum out; total PD in series equals sum of individual PDs; PD across parallel arrangement same as one branch",
+            "Explain current sum at junction",
+            "Calculate combined resistance of two resistors in parallel"
+        ],
+        "allowed_methods": [
+            "Calculations for parallel resistance"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.3 Electric circuits - Action and use of components",
+        "learning_objectives": [
+            "Know PD across conductor increases with resistance for constant current"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.3 Electric circuits - Action and use of components",
+        "learning_objectives": [
+            "Describe action of variable potential divider",
+            "Recall/use equation for two resistors as potential divider: R1/R2 = V1/V2"
+        ],
+        "allowed_methods": [
+            "Equation: R1/R2 = V1/V2"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.4 Electrical safety",
+        "learning_objectives": [
+            "State hazards: damaged insulation, overheating cables, damp, excess current from overloading",
+            "Know mains circuit: live, neutral, earth; switch must be on live for safe off",
+            "Explain use/operation of trip switches/fuses; choose appropriate ratings/settings",
+            "Explain why casing must be non-conducting (double-insulated) or earthed",
+            "State fuse without earth protects circuit/cabling for double-insulated appliance"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - Electromagnetic induction",
+        "learning_objectives": [
+            "Know conductor moving across magnetic field or changing field linking conductor induces EMF",
+            "Describe experiment to demonstrate electromagnetic induction",
+            "State factors affecting magnitude of induced EMF"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - Electromagnetic induction",
+        "learning_objectives": [
+            "Know direction of induced EMF opposes change causing it",
+            "State and use relative directions of force, field, induced current"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - AC generator",
+        "learning_objectives": [],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - AC generator",
+        "learning_objectives": [
+            "Describe simple AC generator (rotating coil/magnet) and slip rings/brushes if needed",
+            "Sketch/interpret EMF-time graphs; relate coil position to peaks/troughs/zeros"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - Magnetic effect of current",
+        "learning_objectives": [
+            "Describe pattern/direction of magnetic field due to currents in straight wires/solenoids",
+            "Describe experiment to identify field pattern (including direction)",
+            "Describe use of magnetic effect in relays/loudspeakers with examples"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - Magnetic effect of current",
+        "learning_objectives": [
+            "State qualitative variation of field strength around straight wires/solenoids",
+            "Describe effect on field of changing current magnitude/direction"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - Force on current-carrying conductor",
+        "learning_objectives": [
+            "Describe experiment showing force on conductor in magnetic field, including effect of reversing current/field"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - Force on current-carrying conductor",
+        "learning_objectives": [
+            "Recall/use relative directions of force, field, current",
+            "Determine direction of force on beams of charged particles in magnetic field"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - DC motor",
+        "learning_objectives": [
+            "Know current-carrying coil in magnetic field may experience turning effect increased by number of turns, current, field strength"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - DC motor",
+        "learning_objectives": [
+            "Describe operation of electric motor including split-ring commutator and brushes"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - Transformer",
+        "learning_objectives": [
+            "Describe construction of simple transformer with soft-iron core",
+            "Use terms primary, secondary, step-up, step-down",
+            "Recall/use Vp/Vs = Np/Ns",
+            "Describe use in high-voltage transmission of electricity",
+            "State advantages of high-voltage transmission"
+        ],
+        "allowed_methods": [
+            "Equation: Vp/Vs = Np/Ns"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Electricity and magnetism",
+        "subtopic": "4.5 Electromagnetic effects - Transformer",
+        "learning_objectives": [
+            "Explain principle of operation of simple iron-cored transformer",
+            "Recall/use equation for 100% efficiency: IpVp = IsVs",
+            "Recall/use P = I²R to explain why power losses smaller at greater voltage"
+        ],
+        "allowed_methods": [
+            "Equations: IpVp = IsVs, P = I²R"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Nuclear physics",
+        "subtopic": "5.1 The nuclear model of the atom - The atom",
+        "learning_objectives": [
+            "Describe atom structure: positively charged nucleus, electrons in orbit",
+            "Know atoms form positive ions losing electrons, negative ions gaining electrons"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Nuclear physics",
+        "subtopic": "5.1 The nuclear model of the atom - The nucleus",
+        "learning_objectives": [
+            "Describe nucleus composition: protons, neutrons",
+            "State relative charges: proton +1, neutron 0, electron -1",
+            "Define proton number Z, nucleon number A; calculate number of neutrons",
+            "Use nuclide notation A/Z X",
+            "Explain isotope; state element may have more than one isotope"
+        ],
+        "allowed_methods": [
+            "Nuclide notation"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Nuclear physics",
+        "subtopic": "5.1 The nuclear model of the atom - The nucleus",
+        "learning_objectives": [
+            "Describe how alpha scattering supports nuclear model: small nucleus, mostly empty space, nucleus contains most mass, positively charged",
+            "Describe fission/fusion as splitting/joining nuclei, including nuclide equation and qualitative mass/energy changes (no values)",
+            "Know relationship proton number ↔ relative charge on nucleus",
+            "Know relationship nucleon number ↔ relative mass of nucleus"
+        ],
+        "allowed_methods": [
+            "Nuclide equations"
+        ],
+        "explicit_exclusions": [
+            "Quantitative values for mass/energy changes"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Nuclear physics",
+        "subtopic": "5.2 Radioactivity - Detection",
+        "learning_objectives": [
+            "Know meaning of background radiation",
+            "Know significant sources: radon gas, rocks/buildings, food/drink, cosmic rays",
+            "Know ionising radiation can be measured using detector connected to counter",
+            "Use count rate in counts/s or counts/min"
+        ],
+        "allowed_methods": [
+            "Count rate measurement"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Nuclear physics",
+        "subtopic": "5.2 Radioactivity - Detection",
+        "learning_objectives": [
+            "Use background radiation measurements to determine corrected count rate"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Nuclear physics",
+        "subtopic": "5.2 Radioactivity - Three types of emission",
+        "learning_objectives": [
+            "Describe emission as spontaneous and random in direction",
+            "Identify alpha, beta, gamma by nature, relative ionising effects, penetrating abilities (β+ not included)"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [
+            "β+ particles"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Nuclear physics",
+        "subtopic": "5.2 Radioactivity - Three types of emission",
+        "learning_objectives": [
+            "Describe deflection in electric/magnetic fields",
+            "Explain relative ionising effects with reference to kinetic energy, electric charge"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Nuclear physics",
+        "subtopic": "5.2 Radioactivity - Radioactive decay",
+        "learning_objectives": [
+            "Know decay is change in unstable nucleus resulting in α, β, γ emission; changes are spontaneous/random",
+            "State during α/β decay, nucleus changes to different element"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Nuclear physics",
+        "subtopic": "5.2 Radioactivity - Half-life",
+        "learning_objectives": [
+            "Define half-life as time for half nuclei to decay; use in simple calculations with tables/curves"
+        ],
+        "allowed_methods": [
+            "Calculations with half-life"
+        ],
+        "explicit_exclusions": [
+            "Calculations including background radiation"
+        ],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Nuclear physics",
+        "subtopic": "5.2 Radioactivity - Half-life",
+        "learning_objectives": [
+            "Know isotopes may be radioactive due to neutron excess/heavy nucleus",
+            "Describe effect of α, β, γ on nucleus: increased stability, reduced excess neutrons; neutron → proton + electron in β",
+            "Use decay equations in nuclide notation for α, β, γ emission",
+            "Calculate half-life from data/curves (background not subtracted)",
+            "Explain how radiation type and half-life determine isotope use in applications (smoke alarms, food irradiation, sterilization, thickness measurement, cancer diagnosis/treatment)"
+        ],
+        "allowed_methods": [
+            "Decay equations, nuclide notation"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Nuclear physics",
+        "subtopic": "5.2 Radioactivity - Safety precautions",
+        "learning_objectives": [
+            "State effects on living things: cell death, mutations, cancer",
+            "Describe safe movement, use, storage"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Nuclear physics",
+        "subtopic": "5.2 Radioactivity - Safety precautions",
+        "learning_objectives": [
+            "Explain precautions: reduce exposure time, increase distance, use shielding"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Space physics",
+        "subtopic": "6.1 The Earth and the Solar System - The Earth",
+        "learning_objectives": [
+            "Know Earth rotates on tilted axis ~24 hours; explain apparent daily Sun motion and day/night cycle",
+            "Know Earth orbits Sun ~365 days; explain seasons",
+            "Know Moon orbits Earth ~1 month; explain Moon phases"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Space physics",
+        "subtopic": "6.1 The Earth and the Solar System - The Earth",
+        "learning_objectives": [
+            "Define average orbital speed v = 2πr/T; use equation"
+        ],
+        "allowed_methods": [
+            "Equation: v = 2πr/T"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Space physics",
+        "subtopic": "6.1 The Earth and the Solar System - The Solar System",
+        "learning_objectives": [
+            "Describe Solar System: one star (Sun), eight named planets in order, minor planets, moons, smaller bodies",
+            "Know four inner planets rocky/small, four outer gaseous/large; explain via accretion model dependent on gravity, elements in clouds, rotation forming disc",
+            "Know gravitational field strength at surface depends on planet mass; decreases with distance",
+            "Calculate time for light to travel significant distance (e.g., within Solar System)",
+            "Know Sun contains most mass explaining orbits",
+            "Know gravitational attraction of Sun keeps objects in orbit"
+        ],
+        "allowed_methods": [
+            "Light travel time calculation"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Space physics",
+        "subtopic": "6.1 The Earth and the Solar System - The Solar System",
+        "learning_objectives": [
+            "Know planets, minor planets, comets have elliptical orbits; Sun not at center except near-circular",
+            "Analyze planetary data: orbital distance, duration, density, surface temp, surface g",
+            "Know Sun's gravitational field strength decreases with distance; orbital speeds decrease",
+            "Know object in elliptical orbit faster when closer to Sun; explain using energy conservation"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Space physics",
+        "subtopic": "6.2 Stars and the Universe - The Sun as a star",
+        "learning_objectives": [
+            "Know Sun is medium star, mostly H/He, radiates most energy in IR, visible, UV"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Space physics",
+        "subtopic": "6.2 Stars and the Universe - The Sun as a star",
+        "learning_objectives": [
+            "Know stars powered by nuclear reactions; stable stars fuse H to He"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Space physics",
+        "subtopic": "6.2 Stars and the Universe - Stars",
+        "learning_objectives": [
+            "State galaxies made of billions of stars",
+            "Know Sun is star in Milky Way",
+            "Know other stars in Milky Way much farther than Sun from Earth",
+            "Know astronomical distances measured in light-years; one light-year distance light travels in vacuum in one year"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Space physics",
+        "subtopic": "6.2 Stars and the Universe - Stars",
+        "learning_objectives": [
+            "Know 1 ly = 9.5×10^15 m",
+            "Describe star life cycle: formation from gas/dust clouds, protostar collapse/heating, stable star when gravity balanced by temperature, H fuel runs out, red giant/supergiant formation, planetary nebula/white dwarf, supernova/neutron star/black hole, new stars/planets from nebula"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Core",
+        "topic": "Space physics",
+        "subtopic": "6.2 Stars and the Universe - The Universe",
+        "learning_objectives": [
+            "Know Milky Way one of billions; diameter ~100000 ly",
+            "Describe redshift as increase in observed wavelength from receding stars/galaxies",
+            "Know light from distant galaxies appears redshifted",
+            "Know redshift evidence for expanding Universe, supports Big Bang"
+        ],
+        "allowed_methods": [],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    },
+    {
+        "curriculum": "IGCSE",
+        "subject": "Physics",
+        "level": "Supplement",
+        "topic": "Space physics",
+        "subtopic": "6.2 Stars and the Universe - The Universe",
+        "learning_objectives": [
+            "Know cosmic microwave background radiation (CMBR) observed everywhere",
+            "Explain CMBR produced shortly after formation, expanded into microwave as Universe expanded",
+            "Know galaxy recession speed found from wavelength change due to redshift",
+            "Know distance of far galaxy determined using supernova brightness",
+            "Define Hubble constant H₀ = v/d; use equation",
+            "Know current H₀ estimate 2.2×10⁻¹⁸ per second",
+            "Know d/v = 1/H₀ represents estimate for age of Universe; evidence all matter present at single point"
+        ],
+        "allowed_methods": [
+            "Equation: H₀ = v/d"
+        ],
+        "explicit_exclusions": [],
+        "exam_style_notes": []
+    }
+]

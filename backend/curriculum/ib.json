@@ -1,0 +1,10 @@
+{
+    "syllabus": "IB",
+    "prompt_rules": [
+        "Use official IB syllabus terminology.",
+        "Avoid methods outside the allowed scope of the IB curriculum.",
+        "Match IB exam-style explanations.",
+        "For 'Concept Explanation' mode, highlight connections to Theory of Knowledge (ToK) where relevant but do not overreach.",
+        "Structure answers to grant full marks according to IB markschemes."
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "syllabus": "IGCSE",
+    "prompt_rules": [
+        "Use simple, clear language consistent with Cambridge IGCSE standards.",
+        "Focus on key command words (Define, Describe, Explain, Calculate).",
+        "Avoid A-Level or advanced concepts unless explicitly asked.",
+        "Ensure steps are broken down clearly for maximum clarity."
+    ]
+}

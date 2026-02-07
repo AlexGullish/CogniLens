@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Models (Large Files)
+model/*.gguf
+model/
+
+# Build artifacts
+C:\ebuild
+ebuild/
+build/
+dist/
+*.egg-info/
+
+# Extensions/Chrome
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project specific
+backend/curriculum_cache/

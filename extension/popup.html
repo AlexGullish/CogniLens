@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            width: 250px;
+            padding: 10px;
+            font-family: sans-serif;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        select,
+        button {
+            width: 100%;
+            margin-top: 5px;
+            padding: 5px;
+        }
+
+        .status {
+            margin-top: 10px;
+            font-size: 0.8em;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>CogniLens Settings</h3>
+
+    <label for="syllabus">Syllabus</label>
+    <select id="syllabus">
+        <option value="IB">IB (International Baccalaureate)</option>
+        <option value="AP">AP (Advanced Placement)</option>
+        <option value="IGCSE">IGCSE</option>
+    </select>
+
+    <label for="mode">Explanation Mode</label>
+    <select id="mode">
+        <option value="concept">Concept Explanation</option>
+        <option value="guided">Guided Solving</option>
+        <option value="concise">Concise Summary</option>
+        <option value="detailed">Detailed Deep Dive</option>
+    </select>
+
+    <label for="depth">Depth</label>
+    <select id="depth">
+        <option value="high">High (Academic)</option>
+        <option value="low">Low (Simplified)</option>
+    </select>
+
+    <button id="save">Save Settings</button>
+    <button id="explain"
+        style="background-color: #3498db; color: white; border: none; font-weight: bold; margin-top: 10px;">Explain
+        Active Selection</button>
+    <div id="status" class="status"></div>
+
+    <script src="popup.js"></script>
+</body>
+
+</html>

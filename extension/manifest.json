@@ -1,0 +1,51 @@
+{
+    "manifest_version": 3,
+    "name": "CogniLens - AI Tutor",
+    "version": "1.0",
+    "description": "Local-first AI explanation tool for IB, AP, and IGCSE curriculums.",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "host_permissions": [
+        "http://localhost:8000/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "lib/katex.min.js",
+                "lib/mhchem.min.js",
+                "lib/marked.min.js",
+                "lib/auto-render.min.js",
+                "content.js"
+            ],
+            "css": [
+                "lib/katex.min.css",
+                "styles.css"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "styles.css",
+                "lib/katex.min.css",
+                "lib/katex.min.js",
+                "lib/mhchem.min.js",
+                "lib/marked.min.js",
+                "lib/auto-render.min.js",
+                "lib/fonts/*"
+            ],
+            "matches": [
+                "<all_urls>"
+            ]
+        }
+    ]
+}
