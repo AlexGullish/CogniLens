@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "CogniLens - AI Tutor",
+    "name": "CogniLens | Academic Assistant",
     "version": "1.0",
-    "description": "Local-first AI explanation tool for IB, AP, and IGCSE curriculums.",
+    "description": "Quiet intelligence for focused students. Context-aware curriculum alignment for IB, AP, and IGCSE.",
     "permissions": [
         "activeTab",
         "scripting",

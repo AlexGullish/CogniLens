@@ -2,30 +2,117 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <style>
+        :root {
+            --bg: #fdfdfd;
+            --text-main: #1d1d1f;
+            --text-secondary: #6e6e73;
+            --accent: #5d7a8c;
+            --border: #e2e2e4;
+            --radius: 2px;
+            --font: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
         body {
-            width: 250px;
-            padding: 10px;
-            font-family: sans-serif;
+            width: 280px;
+            padding: 20px;
+            background: var(--bg);
+            color: var(--text-main);
+            font-family: var(--font);
+            margin: 0;
+            line-height: 1.4;
+        }
+
+        h3 {
+            margin: 0 0 20px 0;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            border-bottom: 1px solid var(--border);
+            padding-bottom: 10px;
+        }
+
+        .setting-group {
+            margin-bottom: 16px;
         }
 
         label {
             display: block;
-            margin-top: 10px;
-            font-weight: bold;
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            margin-bottom: 6px;
         }
 
-        select,
+        select {
+            width: 100%;
+            padding: 8px 10px;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            font-family: var(--font);
+            font-size: 13px;
+            color: var(--text-main);
+            outline: none;
+            appearance: none;
+            background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2024%2024%22%20fill%3D%22none%22%20stroke%3D%22%236e6e73%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpolyline%20points%3D%226%209%2012%2015%2018%209%22%3E%3C/polyline%3E%3C/svg%3E');
+            background-repeat: no-repeat;
+            background-position: right 8px center;
+            background-size: 12px;
+        }
+
+        select:focus {
+            border-color: var(--accent);
+        }
+
+        .actions {
+            margin-top: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
         button {
             width: 100%;
-            margin-top: 5px;
-            padding: 5px;
+            padding: 10px;
+            font-family: var(--font);
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            border-radius: var(--radius);
+            transition: all 100ms linear;
+        }
+
+        #save {
+            background: var(--bg);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+        }
+
+        #save:hover {
+            border-color: var(--text-secondary);
+        }
+
+        #explain {
+            background: var(--accent);
+            color: white;
+            border: 1px solid var(--accent);
+        }
+
+        #explain:hover {
+            opacity: 0.9;
         }
 
         .status {
-            margin-top: 10px;
-            font-size: 0.8em;
-            color: #666;
+            margin-top: 12px;
+            font-size: 11px;
+            color: var(--text-secondary);
+            text-align: center;
+            min-height: 15px;
         }
     </style>
 </head>
@@ -33,31 +120,49 @@
 <body>
     <h3>CogniLens Settings</h3>
 
-    <label for="syllabus">Syllabus</label>
-    <select id="syllabus">
-        <option value="IB">IB (International Baccalaureate)</option>
-        <option value="AP">AP (Advanced Placement)</option>
-        <option value="IGCSE">IGCSE</option>
-    </select>
+    <div class="setting-group">
+        <label for="syllabus">Curriculum</label>
+        <select id="syllabus">
+            <option value="IB">IB Framework</option>
+            <option value="AP">Advanced Placement</option>
+            <option value="IGCSE">IGCSE Standard</option>
+        </select>
+    </div>
 
-    <label for="mode">Explanation Mode</label>
-    <select id="mode">
-        <option value="concept">Concept Explanation</option>
-        <option value="guided">Guided Solving</option>
-        <option value="concise">Concise Summary</option>
-        <option value="detailed">Detailed Deep Dive</option>
-    </select>
+    <div class="setting-group">
+        <label for="mode">Instruction Mode</label>
+        <select id="mode">
+            <option value="concept">Concept Analysis</option>
+            <option value="guided">Guided Problem Solving</option>
+            <option value="concise">Abridged Summary</option>
+            <option value="detailed">In-depth Exploration</option>
+        </select>
+    </div>
 
-    <label for="depth">Depth</label>
-    <select id="depth">
-        <option value="high">High (Academic)</option>
-        <option value="low">Low (Simplified)</option>
-    </select>
+    <div class="setting-group">
+        <label for="depth">Academic Depth</label>
+        <select id="depth">
+            <option value="high">Formal (High)</option>
+            <option value="low">Standard (Low)</option>
+        </select>
+    </div>
 
-    <button id="save">Save Settings</button>
-    <button id="explain"
-        style="background-color: #3498db; color: white; border: none; font-weight: bold; margin-top: 10px;">Explain
-        Active Selection</button>
+    <div class="setting-group">
+        <label for="language">Language</label>
+        <select id="language">
+            <option value="English">English</option>
+            <option value="Spanish">Spanish</option>
+            <option value="French">French</option>
+            <option value="Japanese">Japanese</option>
+            <option value="Chinese">Chinese</option>
+        </select>
+    </div>
+
+    <div class="actions">
+        <button id="save">Save Preferences</button>
+        <button id="explain">Analyze Selection</button>
+    </div>
+
     <div id="status" class="status"></div>
 
     <script src="popup.js"></script>

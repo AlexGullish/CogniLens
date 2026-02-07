@@ -1,13 +1,12 @@
 # CogniLens - Local AI Tutor Extension
 
-CogniLens is a local-first Chrome extension that provides IB, AP, and IGCSE curriculum-aligned explanations using a locally running Qwen 2.5-VL model.
+CogniLens is a local-first browser extension that provides IB, AP, and IGCSE curriculum-aligned explanations using a locally running Qwen 2.5-VL model.
 
 ## Prerequisites
 
 1.  **Python 3.10+**
-2.  **RAM**: At least 8GB (16GB recommended for 7B model).
-3.  **Model File**: `qwen2.5-vl-7b-instruct-q4_k_m.gguf` (or similar) placed in `/model/`.
-    *   *Note*: The code defaults to `/model/qwen2.5-vl-7b-instruct-q4_k_m.gguf`. Update `backend/model_loader.py` if your path differs.
+2.  **RAM**: At least 8GB (16GB recommended).
+
 
 ## Setup
 
@@ -29,19 +28,19 @@ CogniLens is a local-first Chrome extension that provides IB, AP, and IGCSE curr
     *   The server will start at `http://localhost:8000`.
     *   Check health: `http://localhost:8000/docs`.
 
-### 2. GPU Acceleration (Optional - Recommended for 9070xt)
+### 2. GPU Acceleration (Optional)
 
 The default installation uses the CPU. To enable GPU support on Windows:
 
 1.  **Prerequisites**:
     *   Install **Visual Studio Build Tools** (with C++ Desktop development load).
-    *   For your **AMD 9070xt**: Install the [Vulkan SDK](https://vulkan.lunarg.com/sdk/home).
+    *   Install **NVIDIA CUDA Toolkit** (for NVIDIA GPUs) or **Vulkan SDK** (for AMD GPUs). 
 2.  **Run Setup**:
     ```bash
     cd backend
     setup_gpu.bat
     ```
-3.  Follow the prompts to select **Vulkan**. The script will reinstall `llama-cpp-python` with the correct flags.
+3.  Follow the prompts to select **Vulkan** (for AMD) or **CUDA** (for NVIDIA). The script will reinstall `llama-cpp-python` with the correct flags.
 4.  **Verification**: Restart `app.py`. The console will print `GPU ACCELERATION ENABLED` if successful.
 
 ### 3. Browser Extension

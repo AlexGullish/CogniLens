@@ -38,6 +38,7 @@ class ExplanationRequest(BaseModel):
     syllabus: str
     mode: str = "concept" # concept, guided, concise, detailed
     depth: str = "high"   # low, high
+    language: str = "English"
 
 class ExplanationResponse(BaseModel):
     explanation: str
@@ -54,10 +55,10 @@ def explain_text(request: ExplanationRequest):
     
     # 1. Get Curriculum Context
     print(f"\n--- [CogniLens] New Request ---")
-    print(f"Syllabus: {request.syllabus}, Mode: {request.mode}, Depth: {request.depth}")
+    print(f"Syllabus: {request.syllabus}, Mode: {request.mode}, Depth: {request.depth}, Language: {request.language}")
     
     system_prompt = curriculum_controller.construct_system_prompt(
-        request.syllabus, request.mode, request.depth
+        request.syllabus, request.mode, request.depth, request.language
     )
     print(f"System Prompt Built (Size: {len(system_prompt)} chars)")
 
