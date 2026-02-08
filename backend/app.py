@@ -2,29 +2,29 @@ from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from contextlib import asynccontextmanager
-from typing import Optional
+from typing import Optional, List, Dict
 from model_loader import ModelLoader
 from curriculum_controller import CurriculumController
 import uvicorn
 
-# Global instances
+
 model_loader = None
 curriculum_controller = None
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global model_loader, curriculum_controller
-    # Startup
+
     print("Initializing components...")
     model_loader = ModelLoader()
     curriculum_controller = CurriculumController()
     yield
-    # Shutdown
+
     print("Shutting down...")
 
 app = FastAPI(lifespan=lifespan)
 
-# Add CORS middleware to allow browser extension requests
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -36,9 +36,10 @@ app.add_middleware(
 class ExplanationRequest(BaseModel):
     text: str
     syllabus: str
-    mode: str = "concept" # concept, guided, concise, detailed
-    depth: str = "high"   # low, high
+    mode: str = "concept"
+    depth: str = "high"
     language: str = "English"
+    history: Optional[List[Dict]] = None
 
 class ExplanationResponse(BaseModel):
     explanation: str
@@ -53,7 +54,7 @@ def explain_text(request: ExplanationRequest):
     if not model_loader or not model_loader.llm:
         raise HTTPException(status_code=503, detail="Model is not loaded.")
     
-    # 1. Get Curriculum Context
+
     print(f"\n--- [CogniLens] New Request ---")
     print(f"Syllabus: {request.syllabus}, Mode: {request.mode}, Depth: {request.depth}, Language: {request.language}")
     
@@ -62,10 +63,10 @@ def explain_text(request: ExplanationRequest):
     )
     print(f"System Prompt Built (Size: {len(system_prompt)} chars)")
 
-    # 2. Generate Explanation
+
     try:
         print(f"Calling Model Generator for text: '{request.text[:50]}...'")
-        result = model_loader.generate_explanation(system_prompt, request.text)
+        result = model_loader.generate_explanation(system_prompt, request.text, history=request.history)
         print("Generation Request Finished.")
         return ExplanationResponse(
             explanation=result,

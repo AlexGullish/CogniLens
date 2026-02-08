@@ -4,19 +4,16 @@ from typing import Dict, Any
 
 class ModelLoader:
     def __init__(self, model_path: str = None):
-        """
-        Initialize the Llama model. If no path is provided, it searches for
-        the first available .gguf file in the 'model' directory.
-        """
+
         base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
         model_dir = os.path.join(base_dir, "model")
 
         if model_path is None:
-            # Look for ANY .gguf file in the model directory
+
             if os.path.exists(model_dir):
                 gguf_files = [f for f in os.listdir(model_dir) if f.endswith(".gguf")]
                 if gguf_files:
-                    # Pick the most recently modified .gguf file
+
                     gguf_files.sort(key=lambda x: os.path.getmtime(os.path.join(model_dir, x)), reverse=True)
                     model_path = os.path.join(model_dir, gguf_files[0])
                     print(f"CogniLens: Automatically detected model: {gguf_files[0]}")
@@ -35,7 +32,7 @@ class ModelLoader:
             self.llm = None
             return
 
-        # Check for corrupted files (unusually small GGUF)
+
         file_size_gb = os.path.getsize(model_path) / (1024**3)
         if file_size_gb < 0.5:
             print(f"\n" + "!"*50)
@@ -48,8 +45,8 @@ class ModelLoader:
         try:
             self.llm = Llama(
                 model_path=model_path,
-                n_gpu_layers=-1, # Try to offload all layers to GPU if available
-                n_ctx=16384,      # Context window
+                n_gpu_layers=-1,
+                n_ctx=16384,
                 verbose=True
             )
             
@@ -57,7 +54,7 @@ class ModelLoader:
             print("  COGNILENS MODEL STATUS")
             print("="*50)
             
-            # Verify GPU acceleration
+
             try:
                 import llama_cpp
                 try:
@@ -91,20 +88,25 @@ class ModelLoader:
             print("!"*50 + "\n")
             self.llm = None
 
-    def generate_explanation(self, system_prompt: str, user_content: str, max_tokens: int = 1024) -> str:
-        """
-        Generate a response using the loaded model.
-        """
+    def generate_explanation(self, system_prompt: str, user_content: str, history: list = None, max_tokens: int = 1024) -> str:
+
         if not self.llm:
             return "Error: Model not loaded. Please check server logs."
 
-        messages = [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_content}
-        ]
+        messages = [{"role": "system", "content": system_prompt}]
+        
+
+
+        if history:
+            limit = 10
+            recent_history = history[-limit:]
+            messages.extend(recent_history)
+        
+
+        messages.append({"role": "user", "content": user_content})
 
         try:
-            print(f"Starting model generation for user content (first 50 chars): '{user_content[:50]}...'")
+            print(f"Starting model generation with {len(messages)} messages...")
             response = self.llm.create_chat_completion(
                 messages=messages,
                 max_tokens=max_tokens,
