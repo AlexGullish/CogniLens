@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', () => {
-    // Load saved settings
     chrome.storage.local.get(['syllabus', 'mode', 'depth', 'language'], (items) => {
         if (items.syllabus) document.getElementById('syllabus').value = items.syllabus;
         if (items.mode) document.getElementById('mode').value = items.mode;
@@ -7,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (items.language) document.getElementById('language').value = items.language;
     });
 
-    // Save settings
     document.getElementById('save').addEventListener('click', () => {
         const syllabus = document.getElementById('syllabus').value;
         const mode = document.getElementById('mode').value;
@@ -21,7 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Trigger Explanation
     document.getElementById('explain').addEventListener('click', () => {
         const syllabus = document.getElementById('syllabus').value;
         const mode = document.getElementById('mode').value;

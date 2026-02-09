@@ -1,5 +1,25 @@
-// CogniLens Content Script
 
+if (typeof marked !== 'undefined') {
+    marked.setOptions({ gfm: true, breaks: true, headerIds: false, mangle: false });
+}
+
+function safetyClean(text) {
+    if (settings.language === 'English') {
+        text = text.replace(/[\u4e00-\u9fa5\u3040-\u30ff\uac00-\ud7af]/g, '');
+    }
+
+    // Convert raw Greek symbols into LaTeX automatically if they aren't already wrapped
+    text = text.replace(/([\u0370-\u03ff\u1f00-\u1fff])(?![^$]*\$)/g, '$$$1$$');
+
+    // Convert common failed delimiters into stable $ dollar signs
+    // e.g., (\theta) -> $\theta$  and  [\theta] -> $$\theta$$
+    text = text.replace(/\(([^)]*?\\[a-zA-Z]+[^)]*?)\)/g, '$$$1$$');
+    text = text.replace(/\[([^\]]*?\\[a-zA-Z]+[^\]]*?)\]/g, '$$$$$1$$$$');
+
+    return text;
+}
+
+let conversationHistory = [];
 let overlay = null;
 let settings = {
     syllabus: 'IB',
@@ -8,7 +28,7 @@ let settings = {
     language: 'English'
 };
 
-// Initialize by loading settings
+
 chrome.storage.local.get(['syllabus', 'mode', 'depth', 'language'], (items) => {
     if (items.syllabus) settings.syllabus = items.syllabus;
     if (items.mode) settings.mode = items.mode;
@@ -16,7 +36,7 @@ chrome.storage.local.get(['syllabus', 'mode', 'depth', 'language'], (items) => {
     if (items.language) settings.language = items.language;
 });
 
-// Update settings when they change
+
 chrome.storage.onChanged.addListener((changes, namespace) => {
     for (let [key, { newValue }] of Object.entries(changes)) {
         if (key in settings) {
@@ -25,11 +45,11 @@ chrome.storage.onChanged.addListener((changes, namespace) => {
     }
 });
 
-// Listen for messages from popup
+
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     console.log("CogniLens: Received message", request);
     if (request.action === "explain_selection") {
-        // Apply temporary settings from popup if provided
+
         if (request.settings) {
             Object.assign(settings, request.settings);
         }
@@ -40,6 +60,9 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
             alert("Please select some text first.");
             return;
         }
+
+
+        conversationHistory = [];
         createOverlay(selection);
     }
 });
@@ -47,38 +70,33 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 function createOverlay(text) {
     console.log("CogniLens: Creating overlay...");
 
-    // Get selection position
+
     const selection = window.getSelection();
     let top = 20, left = 20;
 
     if (selection.rangeCount > 0) {
         const range = selection.getRangeAt(0);
         const rect = range.getBoundingClientRect();
-        // Position it near the selection, but keep it within viewport
-        top = Math.max(10, rect.bottom + window.scrollY + 10);
-        left = Math.max(10, rect.right + window.scrollX - 380); // try to align to right of selection
 
-        // If it goes off screen, adjust
-        if (left < 10) left = 10;
-        if (left + 380 > window.innerWidth) left = window.innerWidth - 390;
-
-        // Use fixed for simplicity in current implementation
         top = rect.bottom + 10;
         left = rect.left;
+
         if (left + 380 > window.innerWidth) left = window.innerWidth - 390;
-        if (top + 400 > window.innerHeight) top = rect.top - 410;
+        if (top + 450 > window.innerHeight) top = rect.top - 460;
         if (top < 10) top = 10;
+        if (left < 10) left = 10;
     }
 
     if (overlay) {
         document.body.removeChild(overlay);
     }
 
-    // Create container
+
     overlay = document.createElement('div');
     overlay.id = 'cognilens-overlay';
     overlay.style.top = top + 'px';
     overlay.style.left = left + 'px';
+
     const syllabusLabels = {
         'IB': 'IB Framework',
         'AP': 'Advanced Placement',
@@ -98,29 +116,77 @@ function createOverlay(text) {
       <span id="cognilens-close">×</span>
     </div>
     <div id="cognilens-content">
-      <div class="cognilens-loading">
-        Analyzing context...
-        <small>${modeLabels[settings.mode] || settings.mode} &middot; ${settings.language}</small>
+      <div id="cognilens-messages">
+        <div class="cognilens-loading">
+          Analyzing context...
+          <small>${modeLabels[settings.mode] || settings.mode} &middot; ${settings.language}</small>
+        </div>
       </div>
+    </div>
+    <div id="cognilens-footer">
+      <input type="text" id="cognilens-input" placeholder="Ask a follow-up..." />
+      <button id="cognilens-send">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+      </button>
     </div>
   `;
 
     document.body.appendChild(overlay);
 
-    // Close handler
+
     document.getElementById('cognilens-close').addEventListener('click', () => {
         document.body.removeChild(overlay);
         overlay = null;
     });
 
-    // Make draggable
+
+    const input = document.getElementById('cognilens-input');
+    const sendBtn = document.getElementById('cognilens-send');
+
+    const handleSend = () => {
+        const query = input.value.trim();
+        if (query) {
+            input.value = '';
+            input.disabled = true;
+            sendBtn.disabled = true;
+            appendUserMessage(query);
+            fetchExplanation(query, true);
+        }
+    };
+
+    input.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') handleSend();
+    });
+    sendBtn.addEventListener('click', handleSend);
+
+
     makeDraggable(overlay);
 
-    // Fetch explanation
+
     fetchExplanation(text);
 }
 
-async function fetchExplanation(text) {
+function appendUserMessage(text) {
+    const messages = document.getElementById('cognilens-messages');
+    const userMsg = document.createElement('div');
+    userMsg.className = 'cognilens-user-message';
+    userMsg.textContent = text;
+    messages.appendChild(userMsg);
+    messages.scrollTop = messages.scrollHeight;
+}
+
+async function fetchExplanation(text, isFollowUp = false) {
+    const messagesContainer = document.getElementById('cognilens-messages');
+
+    let loadingEl = null;
+    if (isFollowUp) {
+        loadingEl = document.createElement('div');
+        loadingEl.className = 'cognilens-loading';
+        loadingEl.innerHTML = 'Thinking...';
+        messagesContainer.appendChild(loadingEl);
+        messagesContainer.scrollTop = messagesContainer.scrollHeight;
+    }
+
     try {
         const response = await fetch('http://localhost:8000/explain', {
             method: 'POST',
@@ -132,7 +198,8 @@ async function fetchExplanation(text) {
                 syllabus: settings.syllabus,
                 mode: settings.mode,
                 depth: settings.depth,
-                language: settings.language
+                language: settings.language,
+                history: conversationHistory
             })
         });
 
@@ -141,71 +208,117 @@ async function fetchExplanation(text) {
         }
 
         const data = await response.json();
-        renderExplanation(data.explanation);
+
+        if (loadingEl) loadingEl.remove();
+
+        renderExplanation(data.explanation, true);
+
+
+        conversationHistory.push({ role: "user", content: text });
+        conversationHistory.push({ role: "assistant", content: data.explanation });
 
     } catch (error) {
-        const content = document.getElementById('cognilens-content');
+        if (loadingEl) loadingEl.remove();
+        const content = document.getElementById('cognilens-messages');
         if (content) {
-            content.innerHTML = `
+            content.innerHTML += `
           <div class="cognilens-error">
-            Local model not available. Start backend to enable explanations.
+            Communication error.
             <br/><small style="opacity: 0.6; font-size: 11px;">${error.message}</small>
           </div>
         `;
         }
+    } finally {
+        const input = document.getElementById('cognilens-input');
+        const sendBtn = document.getElementById('cognilens-send');
+        if (input) input.disabled = false;
+        if (sendBtn) sendBtn.disabled = false;
+        if (input) input.focus();
     }
 }
 
-function renderExplanation(markdownText) {
-    const content = document.getElementById('cognilens-content');
-    if (!content) return;
+function renderExplanation(markdownText, animate = false) {
+    const messagesContainer = document.getElementById('cognilens-messages');
+    if (!messagesContainer) return;
 
-    // 1. Convert Markdown to HTML using marked.js
-    const htmlContent = typeof marked !== 'undefined' ? marked.parse(markdownText) : markdownText.replace(/\n/g, '<br/>');
+    markdownText = safetyClean(markdownText);
 
-    // 2. Prepare container
+    const initialLoading = messagesContainer.querySelector('.cognilens-loading');
+    if (initialLoading && !conversationHistory.length) {
+        initialLoading.remove();
+    }
+
     const container = document.createElement('div');
     container.className = 'cognilens-rendered-markdown';
-    container.innerHTML = htmlContent;
+    messagesContainer.appendChild(container);
 
-    // 3. Trigger KaTeX rendering on the container BEFORE adding to DOM
-    if (window.renderMathInElement) {
-        window.renderMathInElement(container, {
-            delimiters: [
-                { left: '$$', right: '$$', display: true },
-                { left: '$', right: '$', display: false },
-                { left: '\\(', right: '\\)', display: false },
-                { left: '\\[', right: '\\]', display: true },
-                { left: '\\ce{', right: '}', display: false }
-            ],
-            throwOnError: false,
-            trust: true,
-            strict: false
-        });
+    const parseMD = (text) => {
+        // Prevent marked from mangling LaTeX backslashes or underscore formatting
+        return typeof marked !== 'undefined' ? marked.parse(text) : text.replace(/\n/g, '<br/>');
+    };
+
+    if (!animate) {
+        container.innerHTML = parseMD(markdownText);
+        renderMathAndScroll(container, messagesContainer, true);
+    } else {
+        let currentCharIndex = 0;
+        const speed = 10;
+        const batchSize = 8;
+
+        const type = () => {
+            if (currentCharIndex < markdownText.length) {
+                currentCharIndex += batchSize;
+                if (currentCharIndex > markdownText.length) currentCharIndex = markdownText.length;
+
+                const currentText = markdownText.substring(0, currentCharIndex);
+                container.innerHTML = parseMD(currentText);
+                messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+                if (currentCharIndex < markdownText.length) {
+                    setTimeout(type, speed);
+                } else {
+
+                    renderMathAndScroll(container, messagesContainer, true);
+                }
+            }
+        };
+        type();
     }
-
-    content.innerHTML = '';
-    content.appendChild(container);
-
-    // 4. Force a second pass after brief delay to catch any missed elements (e.g. from async marked)
-    setTimeout(() => {
-        if (window.renderMathInElement) {
-            window.renderMathInElement(content, {
-                delimiters: [
-                    { left: '$$', right: '$$', display: true },
-                    { left: '$', right: '$', display: false },
-                    { left: '\\(', right: '\\)', display: false },
-                    { left: '\\[', right: '\\]', display: true },
-                    { left: '\\ce{', right: '}', display: false }
-                ],
-                throwOnError: false,
-                trust: true
-            });
-        }
-    }, 100);
 }
 
-// Helper: Draggable Overlay
+function renderMathAndScroll(container, messagesContainer, isFinal = false) {
+    const doRender = () => {
+        if (window.renderMathInElement) {
+            try {
+                window.renderMathInElement(container, {
+                    delimiters: [
+                        { left: '$$', right: '$$', display: true },
+                        { left: '$', right: '$', display: false },
+                        { left: '\\(', right: '\\)', display: false },
+                        { left: '\\[', right: '\\]', display: true },
+                        { left: '\\ce{', right: '}', display: false }
+                    ],
+                    throwOnError: false,
+                    trust: true,
+                    strict: false
+                });
+            } catch (e) { }
+        }
+    };
+
+    doRender();
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
+
+    if (isFinal) {
+        setTimeout(doRender, 100);
+        setTimeout(doRender, 500);
+        setTimeout(() => {
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }, 600);
+    }
+}
+
+
 function makeDraggable(element) {
     let pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
     const header = document.getElementById(element.id.replace('overlay', 'header'));
@@ -214,6 +327,7 @@ function makeDraggable(element) {
     }
 
     function dragMouseDown(e) {
+        if (e.target.id === 'cognilens-close') return;
         e = e || window.event;
         e.preventDefault();
         pos3 = e.clientX;
