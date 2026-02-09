@@ -1,6 +1,6 @@
 # CogniLens - Local AI Tutor Extension
 
-CogniLens is a local-first browser extension that provides IB, AP, and IGCSE curriculum-aligned explanations using a locally running Qwen 2.5-VL model.
+CogniLens is a local-first browser extension that provides IB, AP, and IGCSE curriculum-aligned explanations using a locally running model.
 
 ## Prerequisites
 
